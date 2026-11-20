@@ -1,0 +1,11 @@
+# 抓取缓存（可重建：scripts\update.ps1 -Force）
+_raw/
+__pycache__/
+*.pyc
+
+# 编辑器 / 系统
+.vscode/*
+!.vscode/settings.json
+.idea/
+Thumbs.db
+desktop.ini

@@ -1,0 +1,2506 @@
+[
+ {
+  "name": "get_k_kline_data",
+  "kind": "recipe",
+  "module": "examples",
+  "scope": "",
+  "title": "获取 K 线",
+  "anchor": "get_k_kline_data",
+  "path": "api/examples/get_k_kline_data.md",
+  "summary": "利用 pythongo.core 获取最近的 10 根 1 分钟 K 线",
+  "signature": "",
+  "imports": [],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/examples#get_k_kline_data"
+ },
+ {
+  "name": "sub_market_data",
+  "kind": "recipe",
+  "module": "examples",
+  "scope": "",
+  "title": "订阅行情",
+  "anchor": "sub_market_data",
+  "path": "api/examples/sub_market_data.md",
+  "summary": "订阅 ag2602 合约行情，并输出行情信息",
+  "signature": "",
+  "imports": [],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/examples#sub_market_data"
+ },
+ {
+  "name": "scheduler",
+  "kind": "recipe",
+  "module": "examples",
+  "scope": "",
+  "title": "定时器",
+  "anchor": "scheduler",
+  "path": "api/examples/scheduler.md",
+  "summary": "参考 深入框架 - pythongo.utils - Scheduler",
+  "signature": "",
+  "imports": [],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/examples#scheduler"
+ },
+ {
+  "name": "kline_generator",
+  "kind": "recipe",
+  "module": "examples",
+  "scope": "",
+  "title": "K 线合成器",
+  "anchor": "kline_generator",
+  "path": "api/examples/kline_generator.md",
+  "summary": "需要合成 K 线，但是不需要历史数据",
+  "signature": "",
+  "imports": [],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/examples#kline_generator"
+ },
+ {
+  "name": "kline_ui",
+  "kind": "recipe",
+  "module": "examples",
+  "scope": "",
+  "title": "线图 UI",
+  "anchor": "kline_ui",
+  "path": "api/examples/kline_ui.md",
+  "summary": "自定义副图显示指标",
+  "signature": "",
+  "imports": [],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/examples#kline_ui"
+ },
+ {
+  "name": "get_position",
+  "kind": "recipe",
+  "module": "examples",
+  "scope": "",
+  "title": "查询持仓",
+  "anchor": "get_position",
+  "path": "api/examples/get_position.md",
+  "summary": "查询 ag2602 的持仓",
+  "signature": "",
+  "imports": [],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/examples#get_position"
+ },
+ {
+  "name": "external_indicator",
+  "kind": "recipe",
+  "module": "examples",
+  "scope": "",
+  "title": "外部指标",
+  "anchor": "external_indicator",
+  "path": "api/examples/external_indicator.md",
+  "summary": "使用麦语言，通达信和同花顺中常见的指标",
+  "signature": "",
+  "imports": [],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/examples#external_indicator"
+ },
+ {
+  "name": "inherit",
+  "kind": "section",
+  "module": "pythongo.base",
+  "scope": "",
+  "title": "继承简介",
+  "anchor": "inherit",
+  "path": "api/modules/pythongo_base/inherit.md",
+  "summary": "在 Python 中，子类通过继承语法继承父类后，可以拥有父类的所有属性或方法，这样极大的减少了重复的代码，可以让代码更加简洁高效。",
+  "signature": "",
+  "imports": [],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_base#inherit"
+ },
+ {
+  "name": "BaseParams",
+  "kind": "class",
+  "module": "pythongo.base",
+  "scope": "",
+  "title": "BaseParams",
+  "anchor": "baseparams",
+  "path": "api/modules/pythongo_base/BaseParams.md",
+  "summary": "参数映射模型",
+  "signature": "",
+  "imports": [
+   "from pythongo.base import BaseParams"
+  ],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_base#baseparams"
+ },
+ {
+  "name": "BaseState",
+  "kind": "class",
+  "module": "pythongo.base",
+  "scope": "",
+  "title": "BaseState",
+  "anchor": "basestate",
+  "path": "api/modules/pythongo_base/BaseState.md",
+  "summary": "状态映射模型",
+  "signature": "",
+  "imports": [
+   "from pythongo.base import BaseState"
+  ],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_base#basestate"
+ },
+ {
+  "name": "BaseStrategy",
+  "kind": "class",
+  "module": "pythongo.base",
+  "scope": "",
+  "title": "BaseStrategy",
+  "anchor": "basestrategy",
+  "path": "api/modules/pythongo_base/BaseStrategy.md",
+  "summary": "策略模板",
+  "signature": "",
+  "imports": [
+   "from pythongo.base import BaseStrategy",
+   "from pythongo.ui import BaseStrategy"
+  ],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_base#basestrategy"
+ },
+ {
+  "name": "strategy_id",
+  "kind": "attribute",
+  "module": "pythongo.base",
+  "scope": "BaseStrategy",
+  "title": "strategy_id",
+  "anchor": "strategy_id",
+  "path": "api/modules/pythongo_base/BaseStrategy.strategy_id.md",
+  "summary": "类型：int",
+  "signature": "",
+  "imports": [
+   "from pythongo.base import BaseStrategy",
+   "from pythongo.ui import BaseStrategy"
+  ],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_base#strategy_id"
+ },
+ {
+  "name": "strategy_name",
+  "kind": "attribute",
+  "module": "pythongo.base",
+  "scope": "BaseStrategy",
+  "title": "strategy_name",
+  "anchor": "strategy_name",
+  "path": "api/modules/pythongo_base/BaseStrategy.strategy_name.md",
+  "summary": "类型：str",
+  "signature": "",
+  "imports": [
+   "from pythongo.base import BaseStrategy",
+   "from pythongo.ui import BaseStrategy"
+  ],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_base#strategy_name"
+ },
+ {
+  "name": "params_map",
+  "kind": "attribute",
+  "module": "pythongo.base",
+  "scope": "BaseStrategy",
+  "title": "params_map",
+  "anchor": "params_map",
+  "path": "api/modules/pythongo_base/BaseStrategy.params_map.md",
+  "summary": "类型：BaseParams",
+  "signature": "",
+  "imports": [
+   "from pythongo.base import BaseStrategy",
+   "from pythongo.ui import BaseStrategy"
+  ],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_base#params_map"
+ },
+ {
+  "name": "state_map",
+  "kind": "attribute",
+  "module": "pythongo.base",
+  "scope": "BaseStrategy",
+  "title": "state_map",
+  "anchor": "state_map",
+  "path": "api/modules/pythongo_base/BaseStrategy.state_map.md",
+  "summary": "类型：BaseState",
+  "signature": "",
+  "imports": [
+   "from pythongo.base import BaseStrategy",
+   "from pythongo.ui import BaseStrategy"
+  ],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_base#state_map"
+ },
+ {
+  "name": "limit_time",
+  "kind": "attribute",
+  "module": "pythongo.base",
+  "scope": "BaseStrategy",
+  "title": "limit_time",
+  "anchor": "limit_time",
+  "path": "api/modules/pythongo_base/BaseStrategy.limit_time.md",
+  "summary": "类型：int",
+  "signature": "",
+  "imports": [
+   "from pythongo.base import BaseStrategy",
+   "from pythongo.ui import BaseStrategy"
+  ],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_base#limit_time"
+ },
+ {
+  "name": "trading",
+  "kind": "attribute",
+  "module": "pythongo.base",
+  "scope": "BaseStrategy",
+  "title": "trading",
+  "anchor": "trading",
+  "path": "api/modules/pythongo_base/BaseStrategy.trading.md",
+  "summary": "类型：bool",
+  "signature": "",
+  "imports": [
+   "from pythongo.base import BaseStrategy",
+   "from pythongo.ui import BaseStrategy"
+  ],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_base#trading"
+ },
+ {
+  "name": "class_name",
+  "kind": "attribute",
+  "module": "pythongo.base",
+  "scope": "BaseStrategy",
+  "title": "class_name",
+  "anchor": "class_name",
+  "path": "api/modules/pythongo_base/BaseStrategy.class_name.md",
+  "summary": "类型：str",
+  "signature": "",
+  "imports": [
+   "from pythongo.base import BaseStrategy",
+   "from pythongo.ui import BaseStrategy"
+  ],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_base#class_name"
+ },
+ {
+  "name": "exchange_list",
+  "kind": "attribute",
+  "module": "pythongo.base",
+  "scope": "BaseStrategy",
+  "title": "exchange_list",
+  "anchor": "exchange_list",
+  "path": "api/modules/pythongo_base/BaseStrategy.exchange_list.md",
+  "summary": "类型：list[str]",
+  "signature": "",
+  "imports": [
+   "from pythongo.base import BaseStrategy",
+   "from pythongo.ui import BaseStrategy"
+  ],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_base#exchange_list"
+ },
+ {
+  "name": "instrument_list",
+  "kind": "attribute",
+  "module": "pythongo.base",
+  "scope": "BaseStrategy",
+  "title": "instrument_list",
+  "anchor": "instrument_list",
+  "path": "api/modules/pythongo_base/BaseStrategy.instrument_list.md",
+  "summary": "类型：list[str]",
+  "signature": "",
+  "imports": [
+   "from pythongo.base import BaseStrategy",
+   "from pythongo.ui import BaseStrategy"
+  ],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_base#instrument_list"
+ },
+ {
+  "name": "instance_file",
+  "kind": "attribute",
+  "module": "pythongo.base",
+  "scope": "BaseStrategy",
+  "title": "instance_file",
+  "anchor": "instance_file",
+  "path": "api/modules/pythongo_base/BaseStrategy.instance_file.md",
+  "summary": "类型：str",
+  "signature": "",
+  "imports": [
+   "from pythongo.base import BaseStrategy",
+   "from pythongo.ui import BaseStrategy"
+  ],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_base#instance_file"
+ },
+ {
+  "name": "get_params",
+  "kind": "function",
+  "module": "pythongo.base",
+  "scope": "BaseStrategy",
+  "title": "get_params()",
+  "anchor": "get_params",
+  "path": "api/modules/pythongo_base/BaseStrategy.get_params.md",
+  "summary": "获取策略参数",
+  "signature": "",
+  "imports": [
+   "from pythongo.base import BaseStrategy",
+   "from pythongo.ui import BaseStrategy"
+  ],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_base#get_params"
+ },
+ {
+  "name": "set_params",
+  "kind": "function",
+  "module": "pythongo.base",
+  "scope": "BaseStrategy",
+  "title": "set_params()",
+  "anchor": "set_params",
+  "path": "api/modules/pythongo_base/BaseStrategy.set_params.md",
+  "summary": "设置策略参数",
+  "signature": "data",
+  "imports": [
+   "from pythongo.base import BaseStrategy",
+   "from pythongo.ui import BaseStrategy"
+  ],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_base#set_params"
+ },
+ {
+  "name": "update_status_bar",
+  "kind": "function",
+  "module": "pythongo.base",
+  "scope": "BaseStrategy",
+  "title": "update_status_bar()",
+  "anchor": "update_status_bar",
+  "path": "api/modules/pythongo_base/BaseStrategy.update_status_bar.md",
+  "summary": "更新无限易 PythonGO 窗口状态栏显示值",
+  "signature": "",
+  "imports": [
+   "from pythongo.base import BaseStrategy",
+   "from pythongo.ui import BaseStrategy"
+  ],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_base#update_status_bar"
+ },
+ {
+  "name": "save_instance_file",
+  "kind": "function",
+  "module": "pythongo.base",
+  "scope": "BaseStrategy",
+  "title": "save_instance_file()",
+  "anchor": "save_instance_file",
+  "path": "api/modules/pythongo_base/BaseStrategy.save_instance_file.md",
+  "summary": "保存实例信息",
+  "signature": "",
+  "imports": [
+   "from pythongo.base import BaseStrategy",
+   "from pythongo.ui import BaseStrategy"
+  ],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_base#save_instance_file"
+ },
+ {
+  "name": "load_instance_file",
+  "kind": "function",
+  "module": "pythongo.base",
+  "scope": "BaseStrategy",
+  "title": "load_instance_file()",
+  "anchor": "load_instance_file",
+  "path": "api/modules/pythongo_base/BaseStrategy.load_instance_file.md",
+  "summary": "加载实例文件并对策略设置对应属性",
+  "signature": "",
+  "imports": [
+   "from pythongo.base import BaseStrategy",
+   "from pythongo.ui import BaseStrategy"
+  ],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_base#load_instance_file"
+ },
+ {
+  "name": "on_init",
+  "kind": "function",
+  "module": "pythongo.base",
+  "scope": "BaseStrategy",
+  "title": "on_init()",
+  "anchor": "on_init",
+  "path": "api/modules/pythongo_base/BaseStrategy.on_init.md",
+  "summary": "创建实例回调",
+  "signature": "",
+  "imports": [
+   "from pythongo.base import BaseStrategy",
+   "from pythongo.ui import BaseStrategy"
+  ],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_base#on_init"
+ },
+ {
+  "name": "on_start",
+  "kind": "function",
+  "module": "pythongo.base",
+  "scope": "BaseStrategy",
+  "title": "on_start()",
+  "anchor": "on_start",
+  "path": "api/modules/pythongo_base/BaseStrategy.on_start.md",
+  "summary": "启动策略回调",
+  "signature": "",
+  "imports": [
+   "from pythongo.base import BaseStrategy",
+   "from pythongo.ui import BaseStrategy"
+  ],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_base#on_start"
+ },
+ {
+  "name": "on_stop",
+  "kind": "function",
+  "module": "pythongo.base",
+  "scope": "BaseStrategy",
+  "title": "on_stop()",
+  "anchor": "on_stop",
+  "path": "api/modules/pythongo_base/BaseStrategy.on_stop.md",
+  "summary": "停止策略回调",
+  "signature": "",
+  "imports": [
+   "from pythongo.base import BaseStrategy",
+   "from pythongo.ui import BaseStrategy"
+  ],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_base#on_stop"
+ },
+ {
+  "name": "on_tick",
+  "kind": "function",
+  "module": "pythongo.base",
+  "scope": "BaseStrategy",
+  "title": "on_tick()",
+  "anchor": "on_tick",
+  "path": "api/modules/pythongo_base/BaseStrategy.on_tick.md",
+  "summary": "收到行情 tick 推送回调",
+  "signature": "tick",
+  "imports": [
+   "from pythongo.base import BaseStrategy",
+   "from pythongo.ui import BaseStrategy"
+  ],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_base#on_tick"
+ },
+ {
+  "name": "on_contract_status",
+  "kind": "function",
+  "module": "pythongo.base",
+  "scope": "BaseStrategy",
+  "title": "on_contract_status()",
+  "anchor": "on_contract_status",
+  "path": "api/modules/pythongo_base/BaseStrategy.on_contract_status.md",
+  "summary": "合约状态变化回调",
+  "signature": "status",
+  "imports": [
+   "from pythongo.base import BaseStrategy",
+   "from pythongo.ui import BaseStrategy"
+  ],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_base#on_contract_status"
+ },
+ {
+  "name": "on_cancel",
+  "kind": "function",
+  "module": "pythongo.base",
+  "scope": "BaseStrategy",
+  "title": "on_cancel()",
+  "anchor": "on_cancel",
+  "path": "api/modules/pythongo_base/BaseStrategy.on_cancel.md",
+  "summary": "收到撤单推送回调",
+  "signature": "order",
+  "imports": [
+   "from pythongo.base import BaseStrategy",
+   "from pythongo.ui import BaseStrategy"
+  ],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_base#on_cancel"
+ },
+ {
+  "name": "on_order_trade",
+  "kind": "function",
+  "module": "pythongo.base",
+  "scope": "BaseStrategy",
+  "title": "on_order_trade()",
+  "anchor": "on_order_trade",
+  "path": "api/modules/pythongo_base/BaseStrategy.on_order_trade.md",
+  "summary": "收到报单成交推送回调",
+  "signature": "order",
+  "imports": [
+   "from pythongo.base import BaseStrategy",
+   "from pythongo.ui import BaseStrategy"
+  ],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_base#on_order_trade"
+ },
+ {
+  "name": "on_order",
+  "kind": "function",
+  "module": "pythongo.base",
+  "scope": "BaseStrategy",
+  "title": "on_order()",
+  "anchor": "on_order",
+  "path": "api/modules/pythongo_base/BaseStrategy.on_order.md",
+  "summary": "报单变化回调",
+  "signature": "order",
+  "imports": [
+   "from pythongo.base import BaseStrategy",
+   "from pythongo.ui import BaseStrategy"
+  ],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_base#on_order"
+ },
+ {
+  "name": "on_trade",
+  "kind": "function",
+  "module": "pythongo.base",
+  "scope": "BaseStrategy",
+  "title": "on_trade()",
+  "anchor": "on_trade",
+  "path": "api/modules/pythongo_base/BaseStrategy.on_trade.md",
+  "summary": "报单成交推送回调",
+  "signature": "trade, log",
+  "imports": [
+   "from pythongo.base import BaseStrategy",
+   "from pythongo.ui import BaseStrategy"
+  ],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_base#on_trade"
+ },
+ {
+  "name": "on_error",
+  "kind": "function",
+  "module": "pythongo.base",
+  "scope": "BaseStrategy",
+  "title": "on_error()",
+  "anchor": "on_error",
+  "path": "api/modules/pythongo_base/BaseStrategy.on_error.md",
+  "summary": "收到报单错误推送回调",
+  "signature": "error",
+  "imports": [
+   "from pythongo.base import BaseStrategy",
+   "from pythongo.ui import BaseStrategy"
+  ],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_base#on_error"
+ },
+ {
+  "name": "pause_strategy",
+  "kind": "function",
+  "module": "pythongo.base",
+  "scope": "BaseStrategy",
+  "title": "pause_strategy()",
+  "anchor": "pause_strategy",
+  "path": "api/modules/pythongo_base/BaseStrategy.pause_strategy.md",
+  "summary": "暂停策略函数",
+  "signature": "",
+  "imports": [
+   "from pythongo.base import BaseStrategy",
+   "from pythongo.ui import BaseStrategy"
+  ],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_base#pause_strategy"
+ },
+ {
+  "name": "output",
+  "kind": "function",
+  "module": "pythongo.base",
+  "scope": "BaseStrategy",
+  "title": "output()",
+  "anchor": "output",
+  "path": "api/modules/pythongo_base/BaseStrategy.output.md",
+  "summary": "输出信息到控制台",
+  "signature": "*msg",
+  "imports": [
+   "from pythongo.base import BaseStrategy",
+   "from pythongo.ui import BaseStrategy"
+  ],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_base#output"
+ },
+ {
+  "name": "sub_market_data",
+  "kind": "function",
+  "module": "pythongo.base",
+  "scope": "BaseStrategy",
+  "title": "sub_market_data()",
+  "anchor": "sub_market_data",
+  "path": "api/modules/pythongo_base/BaseStrategy.sub_market_data.md",
+  "summary": "订阅合约行情函数",
+  "signature": "exchange=None, instrument_id=None",
+  "imports": [
+   "from pythongo.base import BaseStrategy",
+   "from pythongo.ui import BaseStrategy"
+  ],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_base#sub_market_data"
+ },
+ {
+  "name": "unsub_market_data",
+  "kind": "function",
+  "module": "pythongo.base",
+  "scope": "BaseStrategy",
+  "title": "unsub_market_data()",
+  "anchor": "unsub_market_data",
+  "path": "api/modules/pythongo_base/BaseStrategy.unsub_market_data.md",
+  "summary": "取消订阅合约行情函数",
+  "signature": "exchange=None, instrument_id=None",
+  "imports": [
+   "from pythongo.base import BaseStrategy",
+   "from pythongo.ui import BaseStrategy"
+  ],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_base#unsub_market_data"
+ },
+ {
+  "name": "sync_position",
+  "kind": "function",
+  "module": "pythongo.base",
+  "scope": "BaseStrategy",
+  "title": "sync_position()",
+  "anchor": "sync_position",
+  "path": "api/modules/pythongo_base/BaseStrategy.sync_position.md",
+  "summary": "同步持仓数据函数",
+  "signature": "",
+  "imports": [
+   "from pythongo.base import BaseStrategy",
+   "from pythongo.ui import BaseStrategy"
+  ],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_base#sync_position"
+ },
+ {
+  "name": "get_all_position",
+  "kind": "function",
+  "module": "pythongo.base",
+  "scope": "BaseStrategy",
+  "title": "get_all_position()",
+  "anchor": "get_all_position",
+  "path": "api/modules/pythongo_base/BaseStrategy.get_all_position.md",
+  "summary": "获取所有帐号的所有持仓",
+  "signature": "simple=False",
+  "imports": [
+   "from pythongo.base import BaseStrategy",
+   "from pythongo.ui import BaseStrategy"
+  ],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_base#get_all_position"
+ },
+ {
+  "name": "get_position",
+  "kind": "function",
+  "module": "pythongo.base",
+  "scope": "BaseStrategy",
+  "title": "get_position()",
+  "anchor": "get_position",
+  "path": "api/modules/pythongo_base/BaseStrategy.get_position.md",
+  "summary": "获取持仓数据函数",
+  "signature": "instrument_id, hedgeflag=\"1\", investor=None, simple=False",
+  "imports": [
+   "from pythongo.base import BaseStrategy",
+   "from pythongo.ui import BaseStrategy"
+  ],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_base#get_position"
+ },
+ {
+  "name": "send_order",
+  "kind": "function",
+  "module": "pythongo.base",
+  "scope": "BaseStrategy",
+  "title": "send_order()",
+  "anchor": "send_order",
+  "path": "api/modules/pythongo_base/BaseStrategy.send_order.md",
+  "summary": "报单函数（开仓）",
+  "signature": "exchange, instrument_id, volume, price=报单价格, order_direction, order_type=\"GFD\", investor=\"\", hedgeflag=\"1\", market=False, memo=None",
+  "imports": [
+   "from pythongo.base import BaseStrategy",
+   "from pythongo.ui import BaseStrategy"
+  ],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_base#send_order"
+ },
+ {
+  "name": "auto_close_position",
+  "kind": "function",
+  "module": "pythongo.base",
+  "scope": "BaseStrategy",
+  "title": "auto_close_position()",
+  "anchor": "auto_close_position",
+  "path": "api/modules/pythongo_base/BaseStrategy.auto_close_position.md",
+  "summary": "自动平仓函数（平今优先）",
+  "signature": "exchange, instrument_id, volume, price=报单价格, order_direction, order_type=\"GFD\", investor=\"\", hedgeflag=\"1\", shfe_close_first=False, market=False, memo=None",
+  "imports": [
+   "from pythongo.base import BaseStrategy",
+   "from pythongo.ui import BaseStrategy"
+  ],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_base#auto_close_position"
+ },
+ {
+  "name": "cancel_order",
+  "kind": "function",
+  "module": "pythongo.base",
+  "scope": "BaseStrategy",
+  "title": "cancel_order()",
+  "anchor": "cancel_order",
+  "path": "api/modules/pythongo_base/BaseStrategy.cancel_order.md",
+  "summary": "撤单函数",
+  "signature": "order_id",
+  "imports": [
+   "from pythongo.base import BaseStrategy",
+   "from pythongo.ui import BaseStrategy"
+  ],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_base#cancel_order"
+ },
+ {
+  "name": "make_order_req",
+  "kind": "function",
+  "module": "pythongo.base",
+  "scope": "BaseStrategy",
+  "title": "make_order_req()",
+  "anchor": "make_order_req",
+  "path": "api/modules/pythongo_base/BaseStrategy.make_order_req.md",
+  "summary": "发送报单请求函数",
+  "signature": "exchange, instrument_id, volume, price=报单价格, order_direction, offset, order_type, investor, hedgeflag, market=False, memo=None",
+  "imports": [
+   "from pythongo.base import BaseStrategy",
+   "from pythongo.ui import BaseStrategy"
+  ],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_base#make_order_req"
+ },
+ {
+  "name": "get_account_fund_data",
+  "kind": "function",
+  "module": "pythongo.base",
+  "scope": "BaseStrategy",
+  "title": "get_account_fund_data()",
+  "anchor": "get_account_fund_data",
+  "path": "api/modules/pythongo_base/BaseStrategy.get_account_fund_data.md",
+  "summary": "获取账号资金数据函数",
+  "signature": "investor",
+  "imports": [
+   "from pythongo.base import BaseStrategy",
+   "from pythongo.ui import BaseStrategy"
+  ],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_base#get_account_fund_data"
+ },
+ {
+  "name": "get_instrument_data",
+  "kind": "function",
+  "module": "pythongo.base",
+  "scope": "BaseStrategy",
+  "title": "get_instrument_data()",
+  "anchor": "get_instrument_data",
+  "path": "api/modules/pythongo_base/BaseStrategy.get_instrument_data.md",
+  "summary": "获取合约信息函数",
+  "signature": "exchange, instrument_id",
+  "imports": [
+   "from pythongo.base import BaseStrategy",
+   "from pythongo.ui import BaseStrategy"
+  ],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_base#get_instrument_data"
+ },
+ {
+  "name": "get_instruments_by_product",
+  "kind": "function",
+  "module": "pythongo.base",
+  "scope": "BaseStrategy",
+  "title": "get_instruments_by_product()",
+  "anchor": "get_instruments_by_product",
+  "path": "api/modules/pythongo_base/BaseStrategy.get_instruments_by_product.md",
+  "summary": "查询指定品种的所有合约信息或者仅合约代码函数",
+  "signature": "exchange, product_id, raw_data=True",
+  "imports": [
+   "from pythongo.base import BaseStrategy",
+   "from pythongo.ui import BaseStrategy"
+  ],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_base#get_instruments_by_product"
+ },
+ {
+  "name": "get_investor_data",
+  "kind": "function",
+  "module": "pythongo.base",
+  "scope": "BaseStrategy",
+  "title": "get_investor_data()",
+  "anchor": "get_investor_data",
+  "path": "api/modules/pythongo_base/BaseStrategy.get_investor_data.md",
+  "summary": "获取投资者信息函数",
+  "signature": "index=1",
+  "imports": [
+   "from pythongo.base import BaseStrategy",
+   "from pythongo.ui import BaseStrategy"
+  ],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_base#get_investor_data"
+ },
+ {
+  "name": "AccountData",
+  "kind": "class",
+  "module": "pythongo.classdef",
+  "scope": "",
+  "title": "AccountData",
+  "anchor": "accountdata",
+  "path": "api/modules/pythongo_classdef/account/AccountData.md",
+  "summary": "账户数据类",
+  "signature": "",
+  "imports": [],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_classdef/account#accountdata"
+ },
+ {
+  "name": "ObjDataType",
+  "kind": "class",
+  "module": "pythongo.classdef",
+  "scope": "",
+  "title": "ObjDataType",
+  "anchor": "objdatatype",
+  "path": "api/modules/pythongo_classdef/common/ObjDataType.md",
+  "summary": "dict[str, str | int | float]",
+  "signature": "",
+  "imports": [],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_classdef/common#objdatatype"
+ },
+ {
+  "name": "InstrumentData",
+  "kind": "class",
+  "module": "pythongo.classdef",
+  "scope": "",
+  "title": "InstrumentData",
+  "anchor": "instrumentdata",
+  "path": "api/modules/pythongo_classdef/instrument/InstrumentData.md",
+  "summary": "合约数据类",
+  "signature": "",
+  "imports": [],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_classdef/instrument#instrumentdata"
+ },
+ {
+  "name": "InstrumentStatus",
+  "kind": "class",
+  "module": "pythongo.classdef",
+  "scope": "",
+  "title": "InstrumentStatus",
+  "anchor": "instrumentstatus",
+  "path": "api/modules/pythongo_classdef/instrument/InstrumentStatus.md",
+  "summary": "合约状态类",
+  "signature": "",
+  "imports": [],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_classdef/instrument#instrumentstatus"
+ },
+ {
+  "name": "InvestorData",
+  "kind": "class",
+  "module": "pythongo.classdef",
+  "scope": "",
+  "title": "InvestorData",
+  "anchor": "investordata",
+  "path": "api/modules/pythongo_classdef/investor/InvestorData.md",
+  "summary": "投资者数据类",
+  "signature": "",
+  "imports": [],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_classdef/investor#investordata"
+ },
+ {
+  "name": "KLineData",
+  "kind": "class",
+  "module": "pythongo.classdef",
+  "scope": "",
+  "title": "KLineData",
+  "anchor": "klinedata",
+  "path": "api/modules/pythongo_classdef/kline/KLineData.md",
+  "summary": "K 线数据类",
+  "signature": "",
+  "imports": [
+   "from pythongo.classdef import KLineData"
+  ],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_classdef/kline#klinedata"
+ },
+ {
+  "name": "to_json",
+  "kind": "function",
+  "module": "pythongo.classdef",
+  "scope": "KLineData",
+  "title": "to_json()",
+  "anchor": "to_json",
+  "path": "api/modules/pythongo_classdef/kline/KLineData.to_json.md",
+  "summary": "K 线对象转字典",
+  "signature": "",
+  "imports": [
+   "from pythongo.classdef import KLineData"
+  ],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_classdef/kline#to_json"
+ },
+ {
+  "name": "update",
+  "kind": "function",
+  "module": "pythongo.classdef",
+  "scope": "KLineData",
+  "title": "update()",
+  "anchor": "update",
+  "path": "api/modules/pythongo_classdef/kline/KLineData.update.md",
+  "summary": "更新 K 线属性",
+  "signature": "**kwargs",
+  "imports": [
+   "from pythongo.classdef import KLineData"
+  ],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_classdef/kline#update"
+ },
+ {
+  "name": "OrderData",
+  "kind": "class",
+  "module": "pythongo.classdef",
+  "scope": "",
+  "title": "OrderData",
+  "anchor": "orderdata",
+  "path": "api/modules/pythongo_classdef/order/OrderData.md",
+  "summary": "报单数据类",
+  "signature": "",
+  "imports": [
+   "from pythongo.classdef import OrderData"
+  ],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_classdef/order#orderdata"
+ },
+ {
+  "name": "CancelOrderData",
+  "kind": "class",
+  "module": "pythongo.classdef",
+  "scope": "",
+  "title": "CancelOrderData",
+  "anchor": "cancelorderdata",
+  "path": "api/modules/pythongo_classdef/order/CancelOrderData.md",
+  "summary": "撤单数据类",
+  "signature": "",
+  "imports": [],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_classdef/order#cancelorderdata"
+ },
+ {
+  "name": "Position",
+  "kind": "class",
+  "module": "pythongo.classdef",
+  "scope": "",
+  "title": "Position",
+  "anchor": "position",
+  "path": "api/modules/pythongo_classdef/position/Position.md",
+  "summary": "合约持仓数据类",
+  "signature": "",
+  "imports": [],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_classdef/position#position"
+ },
+ {
+  "name": "get_single_position",
+  "kind": "function",
+  "module": "pythongo.classdef",
+  "scope": "Position",
+  "title": "get_single_position()",
+  "anchor": "get_single_position",
+  "path": "api/modules/pythongo_classdef/position/Position.get_single_position.md",
+  "summary": "获取单边持仓函数",
+  "signature": "direction",
+  "imports": [],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_classdef/position#get_single_position"
+ },
+ {
+  "name": "Position_p",
+  "kind": "class",
+  "module": "pythongo.classdef",
+  "scope": "",
+  "title": "Position_p",
+  "anchor": "position_p",
+  "path": "api/modules/pythongo_classdef/position/Position_p.md",
+  "summary": "单向持仓数据类",
+  "signature": "",
+  "imports": [],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_classdef/position#position_p"
+ },
+ {
+  "name": "TickData",
+  "kind": "class",
+  "module": "pythongo.classdef",
+  "scope": "",
+  "title": "TickData",
+  "anchor": "tickdata",
+  "path": "api/modules/pythongo_classdef/tick/TickData.md",
+  "summary": "行情切片数据类",
+  "signature": "",
+  "imports": [
+   "from pythongo.classdef import TickData"
+  ],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_classdef/tick#tickdata"
+ },
+ {
+  "name": "copy",
+  "kind": "function",
+  "module": "pythongo.classdef",
+  "scope": "TickData",
+  "title": "copy()",
+  "anchor": "copy",
+  "path": "api/modules/pythongo_classdef/tick/TickData.copy.md",
+  "summary": "浅拷贝自身",
+  "signature": "",
+  "imports": [
+   "from pythongo.classdef import TickData"
+  ],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_classdef/tick#copy"
+ },
+ {
+  "name": "update",
+  "kind": "function",
+  "module": "pythongo.classdef",
+  "scope": "TickData",
+  "title": "update()",
+  "anchor": "update",
+  "path": "api/modules/pythongo_classdef/tick/TickData.update.md",
+  "summary": "更新属性（正常情况下使用不到）",
+  "signature": "**kwargs",
+  "imports": [
+   "from pythongo.classdef import TickData"
+  ],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_classdef/tick#update"
+ },
+ {
+  "name": "TradeData",
+  "kind": "class",
+  "module": "pythongo.classdef",
+  "scope": "",
+  "title": "TradeData",
+  "anchor": "tradedata",
+  "path": "api/modules/pythongo_classdef/trade/TradeData.md",
+  "summary": "成交数据类",
+  "signature": "",
+  "imports": [],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_classdef/trade#tradedata"
+ },
+ {
+  "name": "MarketCenter",
+  "kind": "class",
+  "module": "pythongo.core",
+  "scope": "",
+  "title": "MarketCenter",
+  "anchor": "marketcenter",
+  "path": "api/modules/pythongo_core/MarketCenter.md",
+  "summary": "数据中心 API 类",
+  "signature": "",
+  "imports": [
+   "from pythongo.core import MarketCenter"
+  ],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_core#marketcenter"
+ },
+ {
+  "name": "get_kline_data",
+  "kind": "function",
+  "module": "pythongo.core",
+  "scope": "MarketCenter",
+  "title": "get_kline_data()",
+  "anchor": "get_kline_data",
+  "path": "api/modules/pythongo_core/MarketCenter.get_kline_data.md",
+  "summary": "获取 K 线数据",
+  "signature": "exchange, instrument_id, style=KLineStyle.M1, count=-1440, origin=None, start_time=None, end_time=None, simply=True",
+  "imports": [
+   "from pythongo.core import MarketCenter"
+  ],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_core#get_kline_data"
+ },
+ {
+  "name": "get_kline_data_by_day",
+  "kind": "function",
+  "module": "pythongo.core",
+  "scope": "MarketCenter",
+  "title": "get_kline_data_by_day()",
+  "anchor": "get_kline_data_by_day",
+  "path": "api/modules/pythongo_core/MarketCenter.get_kline_data_by_day.md",
+  "summary": "按天数（交易日）获取 K 线数据",
+  "signature": "exchange, instrument_id, day_count, origin=None, style=KLineStyle.M1, simply=True",
+  "imports": [
+   "from pythongo.core import MarketCenter"
+  ],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_core#get_kline_data_by_day"
+ },
+ {
+  "name": "get_dominant_list",
+  "kind": "function",
+  "module": "pythongo.core",
+  "scope": "MarketCenter",
+  "title": "get_dominant_list()",
+  "anchor": "get_dominant_list",
+  "path": "api/modules/pythongo_core/MarketCenter.get_dominant_list.md",
+  "summary": "获取交易所的主连合约列表",
+  "signature": "exchange",
+  "imports": [
+   "from pythongo.core import MarketCenter"
+  ],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_core#get_dominant_list"
+ },
+ {
+  "name": "get_instrument_trade_time",
+  "kind": "function",
+  "module": "pythongo.core",
+  "scope": "MarketCenter",
+  "title": "get_instrument_trade_time()",
+  "anchor": "get_instrument_trade_time",
+  "path": "api/modules/pythongo_core/MarketCenter.get_instrument_trade_time.md",
+  "summary": "查询带交易日的合约交易时段",
+  "signature": "exchange, instrument_id, instant=None",
+  "imports": [
+   "from pythongo.core import MarketCenter"
+  ],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_core#get_instrument_trade_time"
+ },
+ {
+  "name": "get_product_trade_time",
+  "kind": "function",
+  "module": "pythongo.core",
+  "scope": "MarketCenter",
+  "title": "get_product_trade_time()",
+  "anchor": "get_product_trade_time",
+  "path": "api/modules/pythongo_core/MarketCenter.get_product_trade_time.md",
+  "summary": "查询品种的交易时段信息",
+  "signature": "exchange, product_id, trading_day=None",
+  "imports": [
+   "from pythongo.core import MarketCenter"
+  ],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_core#get_product_trade_time"
+ },
+ {
+  "name": "get_avl_close_time",
+  "kind": "function",
+  "module": "pythongo.core",
+  "scope": "MarketCenter",
+  "title": "get_avl_close_time()",
+  "anchor": "get_avl_close_time",
+  "path": "api/modules/pythongo_core/MarketCenter.get_avl_close_time.md",
+  "summary": "从缓存中获取合约可使用的收盘时间序列，如无缓存, 则获取不到任何数据",
+  "signature": "instrument_id",
+  "imports": [
+   "from pythongo.core import MarketCenter"
+  ],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_core#get_avl_close_time"
+ },
+ {
+  "name": "get_next_gen_time",
+  "kind": "function",
+  "module": "pythongo.core",
+  "scope": "MarketCenter",
+  "title": "get_next_gen_time()",
+  "anchor": "get_next_gen_time",
+  "path": "api/modules/pythongo_core/MarketCenter.get_next_gen_time.md",
+  "summary": "根据提供的合约信息、时间和 K 线周期，获取下一根 K 线生成时间",
+  "signature": "exchange, instrument_id, tick_time, style",
+  "imports": [
+   "from pythongo.core import MarketCenter"
+  ],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_core#get_next_gen_time"
+ },
+ {
+  "name": "KLineStyle",
+  "kind": "class",
+  "module": "pythongo.core",
+  "scope": "",
+  "title": "KLineStyle",
+  "anchor": "klinestyle",
+  "path": "api/modules/pythongo_core/KLineStyle.md",
+  "summary": "K 线周期",
+  "signature": "",
+  "imports": [],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_core#klinestyle"
+ },
+ {
+  "name": "KLineStyleType",
+  "kind": "class",
+  "module": "pythongo.core",
+  "scope": "",
+  "title": "KLineStyleType",
+  "anchor": "klinestyletype",
+  "path": "api/modules/pythongo_core/KLineStyleType.md",
+  "summary": "K 线周期类型",
+  "signature": "",
+  "imports": [
+   "from pythongo.core import KLineStyleType"
+  ],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_core#klinestyletype"
+ },
+ {
+  "name": "Indicators",
+  "kind": "class",
+  "module": "pythongo.indicator",
+  "scope": "",
+  "title": "Indicators",
+  "anchor": "indicators",
+  "path": "api/modules/pythongo_indicator/Indicators.md",
+  "summary": "技术指标类",
+  "signature": "",
+  "imports": [],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_indicator#indicators"
+ },
+ {
+  "name": "sma",
+  "kind": "function",
+  "module": "pythongo.indicator",
+  "scope": "Indicators",
+  "title": "sma()",
+  "anchor": "sma",
+  "path": "api/modules/pythongo_indicator/Indicators.sma.md",
+  "summary": "简单移动平均线（Simple Moving Average）",
+  "signature": "",
+  "imports": [],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_indicator#sma"
+ },
+ {
+  "name": "ema",
+  "kind": "function",
+  "module": "pythongo.indicator",
+  "scope": "Indicators",
+  "title": "ema()",
+  "anchor": "ema",
+  "path": "api/modules/pythongo_indicator/Indicators.ema.md",
+  "summary": "指数平均数（EXPMA(Exponential Moving Average)）",
+  "signature": "",
+  "imports": [],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_indicator#ema"
+ },
+ {
+  "name": "std",
+  "kind": "function",
+  "module": "pythongo.indicator",
+  "scope": "Indicators",
+  "title": "std()",
+  "anchor": "std",
+  "path": "api/modules/pythongo_indicator/Indicators.std.md",
+  "summary": "标准差（StdDev(Standard Deviation)）",
+  "signature": "",
+  "imports": [],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_indicator#std"
+ },
+ {
+  "name": "bbi",
+  "kind": "function",
+  "module": "pythongo.indicator",
+  "scope": "Indicators",
+  "title": "bbi()",
+  "anchor": "bbi",
+  "path": "api/modules/pythongo_indicator/Indicators.bbi.md",
+  "summary": "多空指数（Bull And Bear lndex）",
+  "signature": "",
+  "imports": [],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_indicator#bbi"
+ },
+ {
+  "name": "cci",
+  "kind": "function",
+  "module": "pythongo.indicator",
+  "scope": "Indicators",
+  "title": "cci()",
+  "anchor": "cci",
+  "path": "api/modules/pythongo_indicator/Indicators.cci.md",
+  "summary": "顺势指标（Commodity Channel Index）",
+  "signature": "",
+  "imports": [],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_indicator#cci"
+ },
+ {
+  "name": "rsi",
+  "kind": "function",
+  "module": "pythongo.indicator",
+  "scope": "Indicators",
+  "title": "rsi()",
+  "anchor": "rsi",
+  "path": "api/modules/pythongo_indicator/Indicators.rsi.md",
+  "summary": "相对强弱指数（Relative Strength Index）",
+  "signature": "",
+  "imports": [],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_indicator#rsi"
+ },
+ {
+  "name": "adx",
+  "kind": "function",
+  "module": "pythongo.indicator",
+  "scope": "Indicators",
+  "title": "adx()",
+  "anchor": "adx",
+  "path": "api/modules/pythongo_indicator/Indicators.adx.md",
+  "summary": "平均趋向指数（Average Directional Index）",
+  "signature": "",
+  "imports": [],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_indicator#adx"
+ },
+ {
+  "name": "sar",
+  "kind": "function",
+  "module": "pythongo.indicator",
+  "scope": "Indicators",
+  "title": "sar()",
+  "anchor": "sar",
+  "path": "api/modules/pythongo_indicator/Indicators.sar.md",
+  "summary": "抛物线指标（Parabolic Stop and Reverse）",
+  "signature": "",
+  "imports": [],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_indicator#sar"
+ },
+ {
+  "name": "kdj",
+  "kind": "function",
+  "module": "pythongo.indicator",
+  "scope": "Indicators",
+  "title": "kdj()",
+  "anchor": "kdj",
+  "path": "api/modules/pythongo_indicator/Indicators.kdj.md",
+  "summary": "随机指标",
+  "signature": "",
+  "imports": [],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_indicator#kdj"
+ },
+ {
+  "name": "kd",
+  "kind": "function",
+  "module": "pythongo.indicator",
+  "scope": "Indicators",
+  "title": "kd()",
+  "anchor": "kd",
+  "path": "api/modules/pythongo_indicator/Indicators.kd.md",
+  "summary": "随机指标",
+  "signature": "",
+  "imports": [],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_indicator#kd"
+ },
+ {
+  "name": "macd",
+  "kind": "function",
+  "module": "pythongo.indicator",
+  "scope": "Indicators",
+  "title": "macd()",
+  "anchor": "macd",
+  "path": "api/modules/pythongo_indicator/Indicators.macd.md",
+  "summary": "指数平滑移动平均线（Moving Average Convergence and Divergence）",
+  "signature": "",
+  "imports": [],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_indicator#macd"
+ },
+ {
+  "name": "macdext",
+  "kind": "function",
+  "module": "pythongo.indicator",
+  "scope": "Indicators",
+  "title": "macdext()",
+  "anchor": "macdext",
+  "path": "api/modules/pythongo_indicator/Indicators.macdext.md",
+  "summary": "MACD 扩展方法，具有可控 MA 类型的 MACD，可对每个周期设置不同的 MA 类型",
+  "signature": "",
+  "imports": [],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_indicator#macdext"
+ },
+ {
+  "name": "atr",
+  "kind": "function",
+  "module": "pythongo.indicator",
+  "scope": "Indicators",
+  "title": "atr()",
+  "anchor": "atr",
+  "path": "api/modules/pythongo_indicator/Indicators.atr.md",
+  "summary": "真实波幅均值（Average True Range）",
+  "signature": "",
+  "imports": [],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_indicator#atr"
+ },
+ {
+  "name": "boll",
+  "kind": "function",
+  "module": "pythongo.indicator",
+  "scope": "Indicators",
+  "title": "boll()",
+  "anchor": "boll",
+  "path": "api/modules/pythongo_indicator/Indicators.boll.md",
+  "summary": "布林线指标（Bollinger Bands）",
+  "signature": "",
+  "imports": [],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_indicator#boll"
+ },
+ {
+  "name": "keltner",
+  "kind": "function",
+  "module": "pythongo.indicator",
+  "scope": "Indicators",
+  "title": "keltner()",
+  "anchor": "keltner",
+  "path": "api/modules/pythongo_indicator/Indicators.keltner.md",
+  "summary": "肯特纳通道指标（Keltner Channels）",
+  "signature": "",
+  "imports": [],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_indicator#keltner"
+ },
+ {
+  "name": "donchian",
+  "kind": "function",
+  "module": "pythongo.indicator",
+  "scope": "Indicators",
+  "title": "donchian()",
+  "anchor": "donchian",
+  "path": "api/modules/pythongo_indicator/Indicators.donchian.md",
+  "summary": "唐奇安通道（Donchian Channels）",
+  "signature": "",
+  "imports": [],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_indicator#donchian"
+ },
+ {
+  "name": "update_param",
+  "kind": "function",
+  "module": "pythongo.infini",
+  "scope": "",
+  "title": "update_param()",
+  "anchor": "update_param",
+  "path": "api/modules/pythongo_infini/update_param.md",
+  "summary": "界面传入参数在实例中更新",
+  "signature": "",
+  "imports": [],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_infini#update_param"
+ },
+ {
+  "name": "update_state",
+  "kind": "function",
+  "module": "pythongo.infini",
+  "scope": "",
+  "title": "update_state()",
+  "anchor": "update_state",
+  "path": "api/modules/pythongo_infini/update_state.md",
+  "summary": "更新无限易 PythonGO 窗口状态栏显示值",
+  "signature": "",
+  "imports": [],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_infini#update_state"
+ },
+ {
+  "name": "pause_strategy",
+  "kind": "function",
+  "module": "pythongo.infini",
+  "scope": "",
+  "title": "pause_strategy()",
+  "anchor": "pause_strategy",
+  "path": "api/modules/pythongo_infini/pause_strategy.md",
+  "summary": "暂停策略",
+  "signature": "",
+  "imports": [],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_infini#pause_strategy"
+ },
+ {
+  "name": "write_log",
+  "kind": "function",
+  "module": "pythongo.infini",
+  "scope": "",
+  "title": "write_log()",
+  "anchor": "write_log",
+  "path": "api/modules/pythongo_infini/write_log.md",
+  "summary": "输出日志到控制台",
+  "signature": "",
+  "imports": [],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_infini#write_log"
+ },
+ {
+  "name": "sub_market_data",
+  "kind": "function",
+  "module": "pythongo.infini",
+  "scope": "",
+  "title": "sub_market_data()",
+  "anchor": "sub_market_data",
+  "path": "api/modules/pythongo_infini/sub_market_data.md",
+  "summary": "订阅合约行情",
+  "signature": "",
+  "imports": [],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_infini#sub_market_data"
+ },
+ {
+  "name": "unsub_market_data",
+  "kind": "function",
+  "module": "pythongo.infini",
+  "scope": "",
+  "title": "unsub_market_data()",
+  "anchor": "unsub_market_data",
+  "path": "api/modules/pythongo_infini/unsub_market_data.md",
+  "summary": "取消订阅合约行情",
+  "signature": "",
+  "imports": [],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_infini#unsub_market_data"
+ },
+ {
+  "name": "send_order",
+  "kind": "function",
+  "module": "pythongo.infini",
+  "scope": "",
+  "title": "send_order()",
+  "anchor": "send_order",
+  "path": "api/modules/pythongo_infini/send_order.md",
+  "summary": "发单函数",
+  "signature": "",
+  "imports": [],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_infini#send_order"
+ },
+ {
+  "name": "cancel_order",
+  "kind": "function",
+  "module": "pythongo.infini",
+  "scope": "",
+  "title": "cancel_order()",
+  "anchor": "cancel_order",
+  "path": "api/modules/pythongo_infini/cancel_order.md",
+  "summary": "撤单函数",
+  "signature": "",
+  "imports": [],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_infini#cancel_order"
+ },
+ {
+  "name": "get_instrument",
+  "kind": "function",
+  "module": "pythongo.infini",
+  "scope": "",
+  "title": "get_instrument()",
+  "anchor": "get_instrument",
+  "path": "api/modules/pythongo_infini/get_instrument.md",
+  "summary": "获取合约信息",
+  "signature": "",
+  "imports": [],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_infini#get_instrument"
+ },
+ {
+  "name": "get_instruments_by_product",
+  "kind": "function",
+  "module": "pythongo.infini",
+  "scope": "",
+  "title": "get_instruments_by_product()",
+  "anchor": "get_instruments_by_product",
+  "path": "api/modules/pythongo_infini/get_instruments_by_product.md",
+  "summary": "查询指定品种的所有合约信息",
+  "signature": "",
+  "imports": [],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_infini#get_instruments_by_product"
+ },
+ {
+  "name": "get_investor_list",
+  "kind": "function",
+  "module": "pythongo.infini",
+  "scope": "",
+  "title": "get_investor_list()",
+  "anchor": "get_investor_list",
+  "path": "api/modules/pythongo_infini/get_investor_list.md",
+  "summary": "获取所有的投资者信息",
+  "signature": "",
+  "imports": [],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_infini#get_investor_list"
+ },
+ {
+  "name": "get_investor_account",
+  "kind": "function",
+  "module": "pythongo.infini",
+  "scope": "",
+  "title": "get_investor_account()",
+  "anchor": "get_investor_account",
+  "path": "api/modules/pythongo_infini/get_investor_account.md",
+  "summary": "获取账号资金数据",
+  "signature": "",
+  "imports": [],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_infini#get_investor_account"
+ },
+ {
+  "name": "get_investor_position",
+  "kind": "function",
+  "module": "pythongo.infini",
+  "scope": "",
+  "title": "get_investor_position()",
+  "anchor": "get_investor_position",
+  "path": "api/modules/pythongo_infini/get_investor_position.md",
+  "summary": "获取账号持仓",
+  "signature": "",
+  "imports": [],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_infini#get_investor_position"
+ },
+ {
+  "name": "Option",
+  "kind": "class",
+  "module": "pythongo.option",
+  "scope": "",
+  "title": "Option",
+  "anchor": "option",
+  "path": "api/modules/pythongo_option/Option.md",
+  "summary": "该类提供期权扩展功能，可以计算期权希腊值，由于代码陈旧冗长，这里不过多介绍，具体实现可以自行查阅代码。",
+  "signature": "",
+  "imports": [],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_option#option"
+ },
+ {
+  "name": "OptionChain",
+  "kind": "function",
+  "module": "pythongo.option",
+  "scope": "",
+  "title": "OptionChain",
+  "anchor": "optionchain",
+  "path": "api/modules/pythongo_option/OptionChain.md",
+  "summary": "该类将同一品种下的所有期权合约整合成了期权链，提供了获取标的月份合约、到期日、行权价、看涨期权、看跌期权和平值期权的方法",
+  "signature": "",
+  "imports": [],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_option#optionchain"
+ },
+ {
+  "name": "option_chain",
+  "kind": "attribute",
+  "module": "pythongo.option",
+  "scope": "OptionChain",
+  "title": "option_chain",
+  "anchor": "option_chain",
+  "path": "api/modules/pythongo_option/OptionChain.option_chain.md",
+  "summary": "类型：dict",
+  "signature": "",
+  "imports": [],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_option#option_chain"
+ },
+ {
+  "name": "option_type",
+  "kind": "attribute",
+  "module": "pythongo.option",
+  "scope": "OptionChain",
+  "title": "option_type",
+  "anchor": "option_type",
+  "path": "api/modules/pythongo_option/OptionChain.option_type.md",
+  "summary": "类型：Literal[\"期权\", \"股票期权\", \"现货期权\"]",
+  "signature": "",
+  "imports": [],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_option#option_type"
+ },
+ {
+  "name": "get_month_contracts",
+  "kind": "function",
+  "module": "pythongo.option",
+  "scope": "OptionChain",
+  "title": "get_month_contracts()",
+  "anchor": "get_month_contracts",
+  "path": "api/modules/pythongo_option/OptionChain.get_month_contracts.md",
+  "summary": "获取标的月份合约列表，按到期时间排序",
+  "signature": "",
+  "imports": [],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_option#get_month_contracts"
+ },
+ {
+  "name": "get_expire_dates",
+  "kind": "function",
+  "module": "pythongo.option",
+  "scope": "OptionChain",
+  "title": "get_expire_dates()",
+  "anchor": "get_expire_dates",
+  "path": "api/modules/pythongo_option/OptionChain.get_expire_dates.md",
+  "summary": "获取标的月份合约的到期日列表，按到期时间排序",
+  "signature": "underlying_symbol=None",
+  "imports": [],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_option#get_expire_dates"
+ },
+ {
+  "name": "get_strike_prices",
+  "kind": "function",
+  "module": "pythongo.option",
+  "scope": "OptionChain",
+  "title": "get_strike_prices()",
+  "anchor": "get_strike_prices",
+  "path": "api/modules/pythongo_option/OptionChain.get_strike_prices.md",
+  "summary": "获取行权价列表，升序排列",
+  "signature": "underlying_symbol, expire_date=None",
+  "imports": [],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_option#get_strike_prices"
+ },
+ {
+  "name": "get_call_options",
+  "kind": "function",
+  "module": "pythongo.option",
+  "scope": "OptionChain",
+  "title": "get_call_options()",
+  "anchor": "get_call_options",
+  "path": "api/modules/pythongo_option/OptionChain.get_call_options.md",
+  "summary": "获取看涨期权合约列表，按行权价升序排列",
+  "signature": "underlying_symbol, expire_date=None",
+  "imports": [],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_option#get_call_options"
+ },
+ {
+  "name": "get_put_options",
+  "kind": "function",
+  "module": "pythongo.option",
+  "scope": "OptionChain",
+  "title": "get_put_options()",
+  "anchor": "get_put_options",
+  "path": "api/modules/pythongo_option/OptionChain.get_put_options.md",
+  "summary": "获取看跌期权合约列表，按行权价升序排列",
+  "signature": "underlying_symbol, expire_date=None",
+  "imports": [],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_option#get_put_options"
+ },
+ {
+  "name": "get_atm_option",
+  "kind": "function",
+  "module": "pythongo.option",
+  "scope": "OptionChain",
+  "title": "get_atm_option()",
+  "anchor": "get_atm_option",
+  "path": "api/modules/pythongo_option/OptionChain.get_atm_option.md",
+  "summary": "获取平值期权档位",
+  "signature": "underlying_symbol, underlying_price, expire_date=None",
+  "imports": [],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_option#get_atm_option"
+ },
+ {
+  "name": "TypeDateTime",
+  "kind": "class",
+  "module": "pythongo.types",
+  "scope": "",
+  "title": "TypeDateTime",
+  "anchor": "typedatetime",
+  "path": "api/modules/pythongo_types/TypeDateTime.md",
+  "summary": "时间类型，等同于 datetime.datetime",
+  "signature": "",
+  "imports": [],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_types#typedatetime"
+ },
+ {
+  "name": "TypeProduct",
+  "kind": "class",
+  "module": "pythongo.types",
+  "scope": "",
+  "title": "TypeProduct",
+  "anchor": "typeproduct",
+  "path": "api/modules/pythongo_types/TypeProduct.md",
+  "summary": "品种类型",
+  "signature": "",
+  "imports": [],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_types#typeproduct"
+ },
+ {
+  "name": "TypeInstResult",
+  "kind": "class",
+  "module": "pythongo.types",
+  "scope": "",
+  "title": "TypeInstResult",
+  "anchor": "typeinstresult",
+  "path": "api/modules/pythongo_types/TypeInstResult.md",
+  "summary": "合约信息数据类型",
+  "signature": "",
+  "imports": [],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_types#typeinstresult"
+ },
+ {
+  "name": "TypeOrderDIR",
+  "kind": "class",
+  "module": "pythongo.types",
+  "scope": "",
+  "title": "TypeOrderDIR",
+  "anchor": "typeorderdir",
+  "path": "api/modules/pythongo_types/TypeOrderDIR.md",
+  "summary": "报单方向",
+  "signature": "",
+  "imports": [],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_types#typeorderdir"
+ },
+ {
+  "name": "TypeHedgeFlag",
+  "kind": "class",
+  "module": "pythongo.types",
+  "scope": "",
+  "title": "TypeHedgeFlag",
+  "anchor": "typehedgeflag",
+  "path": "api/modules/pythongo_types/TypeHedgeFlag.md",
+  "summary": "投机套保标志",
+  "signature": "",
+  "imports": [],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_types#typehedgeflag"
+ },
+ {
+  "name": "TypeOrderFlag",
+  "kind": "class",
+  "module": "pythongo.types",
+  "scope": "",
+  "title": "TypeOrderFlag",
+  "anchor": "typeorderflag",
+  "path": "api/modules/pythongo_types/TypeOrderFlag.md",
+  "summary": "报单指令",
+  "signature": "",
+  "imports": [],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_types#typeorderflag"
+ },
+ {
+  "name": "TypeRAWOrderFlag",
+  "kind": "class",
+  "module": "pythongo.types",
+  "scope": "",
+  "title": "TypeRAWOrderFlag",
+  "anchor": "typeraworderflag",
+  "path": "api/modules/pythongo_types/TypeRAWOrderFlag.md",
+  "summary": "原始报单指令",
+  "signature": "",
+  "imports": [],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_types#typeraworderflag"
+ },
+ {
+  "name": "TypeOffsetFlag",
+  "kind": "class",
+  "module": "pythongo.types",
+  "scope": "",
+  "title": "TypeOffsetFlag",
+  "anchor": "typeoffsetflag",
+  "path": "api/modules/pythongo_types/TypeOffsetFlag.md",
+  "summary": "开平标志",
+  "signature": "",
+  "imports": [],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_types#typeoffsetflag"
+ },
+ {
+  "name": "BaseStrategy",
+  "kind": "class",
+  "module": "pythongo.ui",
+  "scope": "",
+  "title": "BaseStrategy",
+  "anchor": "basestrategy",
+  "path": "api/modules/pythongo_ui/BaseStrategy.md",
+  "summary": "带 UI 的基础策略模版",
+  "signature": "",
+  "imports": [
+   "from pythongo.ui import BaseStrategy",
+   "from pythongo.base import BaseStrategy"
+  ],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_ui#basestrategy"
+ },
+ {
+  "name": "widget",
+  "kind": "function",
+  "module": "pythongo.ui",
+  "scope": "BaseStrategy",
+  "title": "widget",
+  "anchor": "widget",
+  "path": "api/modules/pythongo_ui/BaseStrategy.widget.md",
+  "summary": "",
+  "signature": "",
+  "imports": [
+   "from pythongo.ui import BaseStrategy",
+   "from pythongo.base import BaseStrategy"
+  ],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_ui#widget"
+ },
+ {
+  "name": "main_indicator_data",
+  "kind": "function",
+  "module": "pythongo.ui",
+  "scope": "BaseStrategy",
+  "title": "main_indicator_data",
+  "anchor": "main_indicator_data",
+  "path": "api/modules/pythongo_ui/BaseStrategy.main_indicator_data.md",
+  "summary": "注意：不能直接对该属性赋值，而应该自行定义该属性",
+  "signature": "",
+  "imports": [
+   "from pythongo.ui import BaseStrategy",
+   "from pythongo.base import BaseStrategy"
+  ],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_ui#main_indicator_data"
+ },
+ {
+  "name": "sub_indicator_data",
+  "kind": "function",
+  "module": "pythongo.ui",
+  "scope": "BaseStrategy",
+  "title": "sub_indicator_data",
+  "anchor": "sub_indicator_data",
+  "path": "api/modules/pythongo_ui/BaseStrategy.sub_indicator_data.md",
+  "summary": "注意：不能直接对该属性赋值，而应该自行定义该属性",
+  "signature": "",
+  "imports": [
+   "from pythongo.ui import BaseStrategy",
+   "from pythongo.base import BaseStrategy"
+  ],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_ui#sub_indicator_data"
+ },
+ {
+  "name": "KLWidget",
+  "kind": "class",
+  "module": "pythongo.ui",
+  "scope": "",
+  "title": "KLWidget",
+  "anchor": "klwidget",
+  "path": "api/modules/pythongo_ui/KLWidget.md",
+  "summary": "K 线组件",
+  "signature": "",
+  "imports": [],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_ui#klwidget"
+ },
+ {
+  "name": "recv_kline",
+  "kind": "function",
+  "module": "pythongo.ui",
+  "scope": "KLWidget",
+  "title": "recv_kline()",
+  "anchor": "recv_kline",
+  "path": "api/modules/pythongo_ui/KLWidget.recv_kline.md",
+  "summary": "收取 K 线、价格信号、指标数据，并将 K 线更新在线图上",
+  "signature": "data=数据容器",
+  "imports": [],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_ui#recv_kline"
+ },
+ {
+  "name": "modules-description",
+  "kind": "class",
+  "module": "pythongo.ui",
+  "scope": "",
+  "title": "模块说明",
+  "anchor": "modules-description",
+  "path": "api/modules/pythongo_ui/modules-description.md",
+  "summary": "",
+  "signature": "",
+  "imports": [],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_ui#modules-description"
+ },
+ {
+  "name": "crosshair.py",
+  "kind": "function",
+  "module": "pythongo.ui",
+  "scope": "modules-description",
+  "title": "crosshair.py",
+  "anchor": "crosshairpy",
+  "path": "api/modules/pythongo_ui/modules-description.crosshair.py.md",
+  "summary": "该模块是十字光标模块，可以显示通过移动鼠标后到达的 K 线坐标对应的 K 线数据",
+  "signature": "",
+  "imports": [],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_ui#crosshairpy"
+ },
+ {
+  "name": "drawer.py",
+  "kind": "function",
+  "module": "pythongo.ui",
+  "scope": "modules-description",
+  "title": "drawer.py",
+  "anchor": "drawerpy",
+  "path": "api/modules/pythongo_ui/modules-description.drawer.py.md",
+  "summary": "绘画 K 线图 UI 的主模块，使用 PyQt 构建了整个线图的 UI",
+  "signature": "",
+  "imports": [],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_ui#drawerpy"
+ },
+ {
+  "name": "widget.py",
+  "kind": "function",
+  "module": "pythongo.ui",
+  "scope": "modules-description",
+  "title": "widget.py",
+  "anchor": "widgetpy",
+  "path": "api/modules/pythongo_ui/modules-description.widget.py.md",
+  "summary": "连接策略与 drawer.py 的桥梁，其中包含了带 UI 功能的基础策略模版，还有 KLWidget 简化库，可以将 K 线数据传递给 U",
+  "signature": "",
+  "imports": [],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_ui#widgetpy"
+ },
+ {
+  "name": "CustomLogHandler",
+  "kind": "class",
+  "module": "pythongo.utils",
+  "scope": "",
+  "title": "CustomLogHandler",
+  "anchor": "customloghandler",
+  "path": "api/modules/pythongo_utils/CustomLogHandler.md",
+  "summary": "自定义日志 Handler",
+  "signature": "",
+  "imports": [],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_utils#customloghandler"
+ },
+ {
+  "name": "Scheduler",
+  "kind": "function",
+  "module": "pythongo.utils",
+  "scope": "",
+  "title": "Scheduler()",
+  "anchor": "scheduler",
+  "path": "api/modules/pythongo_utils/Scheduler.md",
+  "summary": "简易定时器",
+  "signature": "",
+  "imports": [
+   "from pythongo.utils import Scheduler"
+  ],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_utils#scheduler"
+ },
+ {
+  "name": "add_job",
+  "kind": "function",
+  "module": "pythongo.utils",
+  "scope": "Scheduler",
+  "title": "add_job()",
+  "anchor": "scheduler-add_job",
+  "path": "api/modules/pythongo_utils/Scheduler.add_job.md",
+  "summary": "添加定时任务",
+  "signature": "func, trigger, id=None",
+  "imports": [
+   "from pythongo.utils import Scheduler"
+  ],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_utils#scheduler-add_job"
+ },
+ {
+  "name": "get_job",
+  "kind": "function",
+  "module": "pythongo.utils",
+  "scope": "Scheduler",
+  "title": "get_job()",
+  "anchor": "scheduler-get_job",
+  "path": "api/modules/pythongo_utils/Scheduler.get_job.md",
+  "summary": "根据 job_id 获取对应的定时任务",
+  "signature": "job_id",
+  "imports": [
+   "from pythongo.utils import Scheduler"
+  ],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_utils#scheduler-get_job"
+ },
+ {
+  "name": "get_jobs",
+  "kind": "function",
+  "module": "pythongo.utils",
+  "scope": "Scheduler",
+  "title": "get_jobs()",
+  "anchor": "scheduler-get_jobs",
+  "path": "api/modules/pythongo_utils/Scheduler.get_jobs.md",
+  "summary": "返回所有定时任务",
+  "signature": "",
+  "imports": [
+   "from pythongo.utils import Scheduler"
+  ],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_utils#scheduler-get_jobs"
+ },
+ {
+  "name": "remove_job",
+  "kind": "function",
+  "module": "pythongo.utils",
+  "scope": "Scheduler",
+  "title": "remove_job()",
+  "anchor": "scheduler-remove_job",
+  "path": "api/modules/pythongo_utils/Scheduler.remove_job.md",
+  "summary": "根据 job_id 移除定时任务",
+  "signature": "job_id",
+  "imports": [
+   "from pythongo.utils import Scheduler"
+  ],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_utils#scheduler-remove_job"
+ },
+ {
+  "name": "start",
+  "kind": "function",
+  "module": "pythongo.utils",
+  "scope": "Scheduler",
+  "title": "start()",
+  "anchor": "scheduler-start",
+  "path": "api/modules/pythongo_utils/Scheduler.start.md",
+  "summary": "启动定时器",
+  "signature": "",
+  "imports": [
+   "from pythongo.utils import Scheduler"
+  ],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_utils#scheduler-start"
+ },
+ {
+  "name": "stop",
+  "kind": "function",
+  "module": "pythongo.utils",
+  "scope": "Scheduler",
+  "title": "stop()",
+  "anchor": "scheduler-stop",
+  "path": "api/modules/pythongo_utils/Scheduler.stop.md",
+  "summary": "停止定时器",
+  "signature": "",
+  "imports": [
+   "from pythongo.utils import Scheduler"
+  ],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_utils#scheduler-stop"
+ },
+ {
+  "name": "KLineGeneratorSec",
+  "kind": "function",
+  "module": "pythongo.utils",
+  "scope": "",
+  "title": "KLineGeneratorSec",
+  "anchor": "kline-generator-sec",
+  "path": "api/modules/pythongo_utils/KLineGeneratorSec.md",
+  "summary": "秒级 K 线生成器",
+  "signature": "",
+  "imports": [],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_utils#kline-generator-sec"
+ },
+ {
+  "name": "tick_to_kline",
+  "kind": "function",
+  "module": "pythongo.utils",
+  "scope": "KLineGeneratorSec",
+  "title": "tick_to_kline()",
+  "anchor": "kline-generator-sec-tick_to_kline",
+  "path": "api/modules/pythongo_utils/KLineGeneratorSec.tick_to_kline.md",
+  "summary": "合成秒级 K 线",
+  "signature": "tick",
+  "imports": [],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_utils#kline-generator-sec-tick_to_kline"
+ },
+ {
+  "name": "KLineGenerator",
+  "kind": "function",
+  "module": "pythongo.utils",
+  "scope": "",
+  "title": "KLineGenerator",
+  "anchor": "kline-generator",
+  "path": "api/modules/pythongo_utils/KLineGenerator.md",
+  "summary": "分钟级 K 线合成",
+  "signature": "",
+  "imports": [
+   "from pythongo.utils import KLineGenerator"
+  ],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_utils#kline-generator"
+ },
+ {
+  "name": "exchange",
+  "kind": "attribute",
+  "module": "pythongo.utils",
+  "scope": "KLineGenerator",
+  "title": "exchange",
+  "anchor": "kline-generator-exchange",
+  "path": "api/modules/pythongo_utils/KLineGenerator.exchange.md",
+  "summary": "类型：str",
+  "signature": "",
+  "imports": [
+   "from pythongo.utils import KLineGenerator"
+  ],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_utils#kline-generator-exchange"
+ },
+ {
+  "name": "instrument_id",
+  "kind": "attribute",
+  "module": "pythongo.utils",
+  "scope": "KLineGenerator",
+  "title": "instrument_id",
+  "anchor": "kline-generator-instrument_id",
+  "path": "api/modules/pythongo_utils/KLineGenerator.instrument_id.md",
+  "summary": "类型：str",
+  "signature": "",
+  "imports": [
+   "from pythongo.utils import KLineGenerator"
+  ],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_utils#kline-generator-instrument_id"
+ },
+ {
+  "name": "style",
+  "kind": "attribute",
+  "module": "pythongo.utils",
+  "scope": "KLineGenerator",
+  "title": "style",
+  "anchor": "kline-generator-style",
+  "path": "api/modules/pythongo_utils/KLineGenerator.style.md",
+  "summary": "类型：KLineStyleType",
+  "signature": "",
+  "imports": [
+   "from pythongo.utils import KLineGenerator"
+  ],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_utils#kline-generator-style"
+ },
+ {
+  "name": "producer",
+  "kind": "attribute",
+  "module": "pythongo.utils",
+  "scope": "KLineGenerator",
+  "title": "producer",
+  "anchor": "kline-generator-producer",
+  "path": "api/modules/pythongo_utils/KLineGenerator.producer.md",
+  "summary": "类型：KLineProducer",
+  "signature": "",
+  "imports": [
+   "from pythongo.utils import KLineGenerator"
+  ],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_utils#kline-generator-producer"
+ },
+ {
+  "name": "push_history_data",
+  "kind": "function",
+  "module": "pythongo.utils",
+  "scope": "KLineGenerator",
+  "title": "push_history_data()",
+  "anchor": "kline-generator-push_history_data",
+  "path": "api/modules/pythongo_utils/KLineGenerator.push_history_data.md",
+  "summary": "推送历史 K 线数据到回调",
+  "signature": "",
+  "imports": [
+   "from pythongo.utils import KLineGenerator"
+  ],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_utils#kline-generator-push_history_data"
+ },
+ {
+  "name": "stop_push_scheduler",
+  "kind": "function",
+  "module": "pythongo.utils",
+  "scope": "KLineGenerator",
+  "title": "stop_push_scheduler()",
+  "anchor": "kline-generator-stop_push_scheduler",
+  "path": "api/modules/pythongo_utils/KLineGenerator.stop_push_scheduler.md",
+  "summary": "停止推送每个交易时段最后一根 K 线的定时器",
+  "signature": "",
+  "imports": [
+   "from pythongo.utils import KLineGenerator"
+  ],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_utils#kline-generator-stop_push_scheduler"
+ },
+ {
+  "name": "tick_to_kline",
+  "kind": "function",
+  "module": "pythongo.utils",
+  "scope": "KLineGenerator",
+  "title": "tick_to_kline()",
+  "anchor": "kline-generator-tick_to_kline",
+  "path": "api/modules/pythongo_utils/KLineGenerator.tick_to_kline.md",
+  "summary": "合成 K 线",
+  "signature": "tick, push=False",
+  "imports": [
+   "from pythongo.utils import KLineGenerator"
+  ],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_utils#kline-generator-tick_to_kline"
+ },
+ {
+  "name": "KLineGeneratorArb",
+  "kind": "class",
+  "module": "pythongo.utils",
+  "scope": "",
+  "title": "KLineGeneratorArb",
+  "anchor": "kline-generator-arb",
+  "path": "api/modules/pythongo_utils/KLineGeneratorArb.md",
+  "summary": "标准套利合约的分钟级 K 线合成器",
+  "signature": "",
+  "imports": [
+   "from pythongo.utils import KLineGeneratorArb"
+  ],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_utils#kline-generator-arb"
+ },
+ {
+  "name": "KLineContainer",
+  "kind": "function",
+  "module": "pythongo.utils",
+  "scope": "",
+  "title": "KLineContainer",
+  "anchor": "kline-container",
+  "path": "api/modules/pythongo_utils/KLineContainer.md",
+  "summary": "K 线容器",
+  "signature": "",
+  "imports": [],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_utils#kline-container"
+ },
+ {
+  "name": "get",
+  "kind": "function",
+  "module": "pythongo.utils",
+  "scope": "KLineContainer",
+  "title": "get()",
+  "anchor": "get",
+  "path": "api/modules/pythongo_utils/KLineContainer.get.md",
+  "summary": "根据交易所, 合约和 K 线分钟获取缓存的 K 线",
+  "signature": "exchange, instrument_id, style",
+  "imports": [],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_utils#get"
+ },
+ {
+  "name": "set",
+  "kind": "function",
+  "module": "pythongo.utils",
+  "scope": "KLineContainer",
+  "title": "set()",
+  "anchor": "set",
+  "path": "api/modules/pythongo_utils/KLineContainer.set.md",
+  "summary": "根据交易所, 合约和 K 线分钟缓存 K 线",
+  "signature": "exchange, instrument_id, style, data",
+  "imports": [],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_utils#set"
+ },
+ {
+  "name": "init",
+  "kind": "function",
+  "module": "pythongo.utils",
+  "scope": "KLineContainer",
+  "title": "init()",
+  "anchor": "init",
+  "path": "api/modules/pythongo_utils/KLineContainer.init.md",
+  "summary": "获取合约 K 线并缓存",
+  "signature": "exchange, instrument_id, style",
+  "imports": [],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_utils#init"
+ },
+ {
+  "name": "KLineProducer",
+  "kind": "function",
+  "module": "pythongo.utils",
+  "scope": "",
+  "title": "KLineProducer",
+  "anchor": "kline-producer",
+  "path": "api/modules/pythongo_utils/KLineProducer.md",
+  "summary": "K 线生产器",
+  "signature": "",
+  "imports": [],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_utils#kline-producer"
+ },
+ {
+  "name": "exchange",
+  "kind": "attribute",
+  "module": "pythongo.utils",
+  "scope": "KLineProducer",
+  "title": "exchange",
+  "anchor": "exchange",
+  "path": "api/modules/pythongo_utils/KLineProducer.exchange.md",
+  "summary": "类型：str",
+  "signature": "",
+  "imports": [],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_utils#exchange"
+ },
+ {
+  "name": "instrument_id",
+  "kind": "attribute",
+  "module": "pythongo.utils",
+  "scope": "KLineProducer",
+  "title": "instrument_id",
+  "anchor": "instrument_id",
+  "path": "api/modules/pythongo_utils/KLineProducer.instrument_id.md",
+  "summary": "类型：str",
+  "signature": "",
+  "imports": [],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_utils#instrument_id"
+ },
+ {
+  "name": "style",
+  "kind": "attribute",
+  "module": "pythongo.utils",
+  "scope": "KLineProducer",
+  "title": "style",
+  "anchor": "style",
+  "path": "api/modules/pythongo_utils/KLineProducer.style.md",
+  "summary": "类型：KLineStyleType",
+  "signature": "",
+  "imports": [],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_utils#style"
+ },
+ {
+  "name": "kline_container",
+  "kind": "attribute",
+  "module": "pythongo.utils",
+  "scope": "KLineProducer",
+  "title": "kline_container",
+  "anchor": "kline_container",
+  "path": "api/modules/pythongo_utils/KLineProducer.kline_container.md",
+  "summary": "类型：KLineContainer",
+  "signature": "",
+  "imports": [],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_utils#kline_container"
+ },
+ {
+  "name": "open",
+  "kind": "attribute",
+  "module": "pythongo.utils",
+  "scope": "KLineProducer",
+  "title": "open",
+  "anchor": "open",
+  "path": "api/modules/pythongo_utils/KLineProducer.open.md",
+  "summary": "类型：list[np.float64]",
+  "signature": "",
+  "imports": [],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_utils#open"
+ },
+ {
+  "name": "close",
+  "kind": "attribute",
+  "module": "pythongo.utils",
+  "scope": "KLineProducer",
+  "title": "close",
+  "anchor": "close",
+  "path": "api/modules/pythongo_utils/KLineProducer.close.md",
+  "summary": "类型：list[np.float64]",
+  "signature": "",
+  "imports": [],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_utils#close"
+ },
+ {
+  "name": "high",
+  "kind": "attribute",
+  "module": "pythongo.utils",
+  "scope": "KLineProducer",
+  "title": "high",
+  "anchor": "high",
+  "path": "api/modules/pythongo_utils/KLineProducer.high.md",
+  "summary": "类型：list[np.float64]",
+  "signature": "",
+  "imports": [],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_utils#high"
+ },
+ {
+  "name": "low",
+  "kind": "attribute",
+  "module": "pythongo.utils",
+  "scope": "KLineProducer",
+  "title": "low",
+  "anchor": "low",
+  "path": "api/modules/pythongo_utils/KLineProducer.low.md",
+  "summary": "类型：list[np.float64]",
+  "signature": "",
+  "imports": [],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_utils#low"
+ },
+ {
+  "name": "volume",
+  "kind": "attribute",
+  "module": "pythongo.utils",
+  "scope": "KLineProducer",
+  "title": "volume",
+  "anchor": "volume",
+  "path": "api/modules/pythongo_utils/KLineProducer.volume.md",
+  "summary": "类型：list[np.float64]",
+  "signature": "",
+  "imports": [],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_utils#volume"
+ },
+ {
+  "name": "datetime",
+  "kind": "attribute",
+  "module": "pythongo.utils",
+  "scope": "KLineProducer",
+  "title": "datetime",
+  "anchor": "datetime",
+  "path": "api/modules/pythongo_utils/KLineProducer.datetime.md",
+  "summary": "类型：list[TypeDateTime]",
+  "signature": "",
+  "imports": [],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_utils#datetime"
+ },
+ {
+  "name": "update",
+  "kind": "function",
+  "module": "pythongo.utils",
+  "scope": "KLineProducer",
+  "title": "update()",
+  "anchor": "update",
+  "path": "api/modules/pythongo_utils/KLineProducer.update.md",
+  "summary": "更新数据序列",
+  "signature": "kline",
+  "imports": [],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_utils#update"
+ },
+ {
+  "name": "append_data",
+  "kind": "function",
+  "module": "pythongo.utils",
+  "scope": "KLineProducer",
+  "title": "append_data()",
+  "anchor": "append_data",
+  "path": "api/modules/pythongo_utils/KLineProducer.append_data.md",
+  "summary": "添加 K 线数据",
+  "signature": "kline",
+  "imports": [],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_utils#append_data"
+ },
+ {
+  "name": "insert_data",
+  "kind": "function",
+  "module": "pythongo.utils",
+  "scope": "KLineProducer",
+  "title": "insert_data()",
+  "anchor": "insert_data",
+  "path": "api/modules/pythongo_utils/KLineProducer.insert_data.md",
+  "summary": "根据数组下标插入 K 线数据",
+  "signature": "kline, index=-1",
+  "imports": [],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_utils#insert_data"
+ },
+ {
+  "name": "update_last_kline",
+  "kind": "function",
+  "module": "pythongo.utils",
+  "scope": "KLineProducer",
+  "title": "update_last_kline()",
+  "anchor": "update_last_kline",
+  "path": "api/modules/pythongo_utils/KLineProducer.update_last_kline.md",
+  "summary": "更新最后一根 K 线数据",
+  "signature": "kline",
+  "imports": [],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_utils#update_last_kline"
+ },
+ {
+  "name": "worker",
+  "kind": "function",
+  "module": "pythongo.utils",
+  "scope": "KLineProducer",
+  "title": "worker()",
+  "anchor": "worker",
+  "path": "api/modules/pythongo_utils/KLineProducer.worker.md",
+  "summary": "将 K 线数据转成 K 线对象后更新到本实例中的 K 线数据序列，并且推送到 K 线回调中，这部分数据也称 K 线历史数据",
+  "signature": "",
+  "imports": [],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_utils#worker"
+ },
+ {
+  "name": "isdigit",
+  "kind": "function",
+  "module": "pythongo.utils",
+  "scope": "",
+  "title": "isdigit()",
+  "anchor": "isdigit",
+  "path": "api/modules/pythongo_utils/isdigit.md",
+  "summary": "判断字符串是否整数或小数",
+  "signature": "",
+  "imports": [],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_utils#isdigit"
+ },
+ {
+  "name": "split_arbitrage_code",
+  "kind": "function",
+  "module": "pythongo.utils",
+  "scope": "",
+  "title": "split_arbitrage_code()",
+  "anchor": "split_arbitrage_code",
+  "path": "api/modules/pythongo_utils/split_arbitrage_code.md",
+  "summary": "分割套利合约代码",
+  "signature": "",
+  "imports": [],
+  "source": "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_utils#split_arbitrage_code"
+ }
+]

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="28px" viewBox="0 0 28 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>28x28算法列表-开始</title>
+    <g id="28x28算法列表-开始" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="矩形" fill="#4A7EFF" x="0" y="0" width="28" height="28" rx="2"></rect>
+        <path d="M15.0000372,10.59966 L19.7591105,19.3856416 L10.310187,19.4983632 L15.0000372,10.59966 Z" id="三角形" stroke="#FFFFFF" stroke-width="2" transform="translate(15.000000, 14.500000) scale(-1, 1) rotate(-90.000000) translate(-15.000000, -14.500000) "></path>
+    </g>
+</svg>

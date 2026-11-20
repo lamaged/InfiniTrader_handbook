@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="28px" viewBox="0 0 28 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>28x28算法列表-暂停</title>
+    <g id="28x28算法列表-暂停" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="矩形" fill="#44B5E9" x="0" y="0" width="28" height="28" rx="2"></rect>
+        <rect id="矩形" fill="#FFFFFF" x="10" y="8" width="2" height="12"></rect>
+        <rect id="矩形" fill="#FFFFFF" x="16" y="8" width="2" height="12"></rect>
+    </g>
+</svg>

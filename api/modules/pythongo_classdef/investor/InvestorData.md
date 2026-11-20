@@ -1,0 +1,20 @@
+---
+title: "InvestorData"
+module: "pythongo.classdef"
+kind: "class"
+source: "https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_classdef/investor#investordata"
+---
+
+
+# `InvestorData`
+
+
+- 模块: `pythongo.classdef`  ·  整页: [modules/pythongo_classdef/investor](../../../../docs/modules/pythongo_classdef/investor.md#investordata)  ·  [原文](https://infinitrader.quantdo.com.cn/pythongo_v2/modules/pythongo_classdef/investor#investordata)
+
+投资者数据类
+
+| 属性名 | 类型 | 说明 |
+| --- | --- | --- |
+| `broker_id` | `str` | 经纪公司编号 |
+| `investor_id` | `str` | 投资者账号 |
+| `user_id` | `str` | 登录账号（多数情况下同投资者账号） |

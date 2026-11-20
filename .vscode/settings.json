@@ -1,0 +1,14 @@
+{
+  "search.exclude": {
+    "_raw/**": true,
+    "**/__pycache__/**": true
+  },
+  "files.watcherExclude": {
+    "**/_raw/**": true
+  },
+  "files.encoding": "utf8",
+  "markdown.preview.breaks": false,
+  "editor.rulers": [
+    100
+  ]
+}

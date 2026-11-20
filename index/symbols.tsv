@@ -1,0 +1,178 @@
+name	kind	module	scope	signature	summary	path
+external_indicator	recipe	examples			使用麦语言，通达信和同花顺中常见的指标	api/examples/external_indicator.md
+get_k_kline_data	recipe	examples			利用 pythongo.core 获取最近的 10 根 1 分钟 K 线	api/examples/get_k_kline_data.md
+get_position	recipe	examples			查询 ag2602 的持仓	api/examples/get_position.md
+kline_generator	recipe	examples			需要合成 K 线，但是不需要历史数据	api/examples/kline_generator.md
+kline_ui	recipe	examples			自定义副图显示指标	api/examples/kline_ui.md
+scheduler	recipe	examples			参考 深入框架 - pythongo.utils - Scheduler	api/examples/scheduler.md
+sub_market_data	recipe	examples			订阅 ag2602 合约行情，并输出行情信息	api/examples/sub_market_data.md
+BaseParams	class	pythongo.base			参数映射模型	api/modules/pythongo_base/BaseParams.md
+BaseState	class	pythongo.base			状态映射模型	api/modules/pythongo_base/BaseState.md
+BaseStrategy	class	pythongo.base			策略模板	api/modules/pythongo_base/BaseStrategy.md
+inherit	section	pythongo.base			在 Python 中，子类通过继承语法继承父类后，可以拥有父类的所有属性或方法，这样极大的减少了重复的代码，可以让代码更加简洁高效。	api/modules/pythongo_base/inherit.md
+auto_close_position	function	pythongo.base	BaseStrategy	exchange, instrument_id, volume, price=报单价格, order_direction, order_type="GFD", investor="", hedgeflag="1", shfe_close_first=False, market=False, memo=None	自动平仓函数（平今优先）	api/modules/pythongo_base/BaseStrategy.auto_close_position.md
+cancel_order	function	pythongo.base	BaseStrategy	order_id	撤单函数	api/modules/pythongo_base/BaseStrategy.cancel_order.md
+class_name	attribute	pythongo.base	BaseStrategy		类型：str	api/modules/pythongo_base/BaseStrategy.class_name.md
+exchange_list	attribute	pythongo.base	BaseStrategy		类型：list[str]	api/modules/pythongo_base/BaseStrategy.exchange_list.md
+get_account_fund_data	function	pythongo.base	BaseStrategy	investor	获取账号资金数据函数	api/modules/pythongo_base/BaseStrategy.get_account_fund_data.md
+get_all_position	function	pythongo.base	BaseStrategy	simple=False	获取所有帐号的所有持仓	api/modules/pythongo_base/BaseStrategy.get_all_position.md
+get_instrument_data	function	pythongo.base	BaseStrategy	exchange, instrument_id	获取合约信息函数	api/modules/pythongo_base/BaseStrategy.get_instrument_data.md
+get_instruments_by_product	function	pythongo.base	BaseStrategy	exchange, product_id, raw_data=True	查询指定品种的所有合约信息或者仅合约代码函数	api/modules/pythongo_base/BaseStrategy.get_instruments_by_product.md
+get_investor_data	function	pythongo.base	BaseStrategy	index=1	获取投资者信息函数	api/modules/pythongo_base/BaseStrategy.get_investor_data.md
+get_params	function	pythongo.base	BaseStrategy		获取策略参数	api/modules/pythongo_base/BaseStrategy.get_params.md
+get_position	function	pythongo.base	BaseStrategy	instrument_id, hedgeflag="1", investor=None, simple=False	获取持仓数据函数	api/modules/pythongo_base/BaseStrategy.get_position.md
+instance_file	attribute	pythongo.base	BaseStrategy		类型：str	api/modules/pythongo_base/BaseStrategy.instance_file.md
+instrument_list	attribute	pythongo.base	BaseStrategy		类型：list[str]	api/modules/pythongo_base/BaseStrategy.instrument_list.md
+limit_time	attribute	pythongo.base	BaseStrategy		类型：int	api/modules/pythongo_base/BaseStrategy.limit_time.md
+load_instance_file	function	pythongo.base	BaseStrategy		加载实例文件并对策略设置对应属性	api/modules/pythongo_base/BaseStrategy.load_instance_file.md
+make_order_req	function	pythongo.base	BaseStrategy	exchange, instrument_id, volume, price=报单价格, order_direction, offset, order_type, investor, hedgeflag, market=False, memo=None	发送报单请求函数	api/modules/pythongo_base/BaseStrategy.make_order_req.md
+on_cancel	function	pythongo.base	BaseStrategy	order	收到撤单推送回调	api/modules/pythongo_base/BaseStrategy.on_cancel.md
+on_contract_status	function	pythongo.base	BaseStrategy	status	合约状态变化回调	api/modules/pythongo_base/BaseStrategy.on_contract_status.md
+on_error	function	pythongo.base	BaseStrategy	error	收到报单错误推送回调	api/modules/pythongo_base/BaseStrategy.on_error.md
+on_init	function	pythongo.base	BaseStrategy		创建实例回调	api/modules/pythongo_base/BaseStrategy.on_init.md
+on_order	function	pythongo.base	BaseStrategy	order	报单变化回调	api/modules/pythongo_base/BaseStrategy.on_order.md
+on_order_trade	function	pythongo.base	BaseStrategy	order	收到报单成交推送回调	api/modules/pythongo_base/BaseStrategy.on_order_trade.md
+on_start	function	pythongo.base	BaseStrategy		启动策略回调	api/modules/pythongo_base/BaseStrategy.on_start.md
+on_stop	function	pythongo.base	BaseStrategy		停止策略回调	api/modules/pythongo_base/BaseStrategy.on_stop.md
+on_tick	function	pythongo.base	BaseStrategy	tick	收到行情 tick 推送回调	api/modules/pythongo_base/BaseStrategy.on_tick.md
+on_trade	function	pythongo.base	BaseStrategy	trade, log	报单成交推送回调	api/modules/pythongo_base/BaseStrategy.on_trade.md
+output	function	pythongo.base	BaseStrategy	*msg	输出信息到控制台	api/modules/pythongo_base/BaseStrategy.output.md
+params_map	attribute	pythongo.base	BaseStrategy		类型：BaseParams	api/modules/pythongo_base/BaseStrategy.params_map.md
+pause_strategy	function	pythongo.base	BaseStrategy		暂停策略函数	api/modules/pythongo_base/BaseStrategy.pause_strategy.md
+save_instance_file	function	pythongo.base	BaseStrategy		保存实例信息	api/modules/pythongo_base/BaseStrategy.save_instance_file.md
+send_order	function	pythongo.base	BaseStrategy	exchange, instrument_id, volume, price=报单价格, order_direction, order_type="GFD", investor="", hedgeflag="1", market=False, memo=None	报单函数（开仓）	api/modules/pythongo_base/BaseStrategy.send_order.md
+set_params	function	pythongo.base	BaseStrategy	data	设置策略参数	api/modules/pythongo_base/BaseStrategy.set_params.md
+state_map	attribute	pythongo.base	BaseStrategy		类型：BaseState	api/modules/pythongo_base/BaseStrategy.state_map.md
+strategy_id	attribute	pythongo.base	BaseStrategy		类型：int	api/modules/pythongo_base/BaseStrategy.strategy_id.md
+strategy_name	attribute	pythongo.base	BaseStrategy		类型：str	api/modules/pythongo_base/BaseStrategy.strategy_name.md
+sub_market_data	function	pythongo.base	BaseStrategy	exchange=None, instrument_id=None	订阅合约行情函数	api/modules/pythongo_base/BaseStrategy.sub_market_data.md
+sync_position	function	pythongo.base	BaseStrategy		同步持仓数据函数	api/modules/pythongo_base/BaseStrategy.sync_position.md
+trading	attribute	pythongo.base	BaseStrategy		类型：bool	api/modules/pythongo_base/BaseStrategy.trading.md
+unsub_market_data	function	pythongo.base	BaseStrategy	exchange=None, instrument_id=None	取消订阅合约行情函数	api/modules/pythongo_base/BaseStrategy.unsub_market_data.md
+update_status_bar	function	pythongo.base	BaseStrategy		更新无限易 PythonGO 窗口状态栏显示值	api/modules/pythongo_base/BaseStrategy.update_status_bar.md
+AccountData	class	pythongo.classdef			账户数据类	api/modules/pythongo_classdef/account/AccountData.md
+CancelOrderData	class	pythongo.classdef			撤单数据类	api/modules/pythongo_classdef/order/CancelOrderData.md
+InstrumentData	class	pythongo.classdef			合约数据类	api/modules/pythongo_classdef/instrument/InstrumentData.md
+InstrumentStatus	class	pythongo.classdef			合约状态类	api/modules/pythongo_classdef/instrument/InstrumentStatus.md
+InvestorData	class	pythongo.classdef			投资者数据类	api/modules/pythongo_classdef/investor/InvestorData.md
+KLineData	class	pythongo.classdef			K 线数据类	api/modules/pythongo_classdef/kline/KLineData.md
+ObjDataType	class	pythongo.classdef			dict[str, str | int | float]	api/modules/pythongo_classdef/common/ObjDataType.md
+OrderData	class	pythongo.classdef			报单数据类	api/modules/pythongo_classdef/order/OrderData.md
+Position	class	pythongo.classdef			合约持仓数据类	api/modules/pythongo_classdef/position/Position.md
+Position_p	class	pythongo.classdef			单向持仓数据类	api/modules/pythongo_classdef/position/Position_p.md
+TickData	class	pythongo.classdef			行情切片数据类	api/modules/pythongo_classdef/tick/TickData.md
+TradeData	class	pythongo.classdef			成交数据类	api/modules/pythongo_classdef/trade/TradeData.md
+to_json	function	pythongo.classdef	KLineData		K 线对象转字典	api/modules/pythongo_classdef/kline/KLineData.to_json.md
+update	function	pythongo.classdef	KLineData	**kwargs	更新 K 线属性	api/modules/pythongo_classdef/kline/KLineData.update.md
+get_single_position	function	pythongo.classdef	Position	direction	获取单边持仓函数	api/modules/pythongo_classdef/position/Position.get_single_position.md
+copy	function	pythongo.classdef	TickData		浅拷贝自身	api/modules/pythongo_classdef/tick/TickData.copy.md
+update	function	pythongo.classdef	TickData	**kwargs	更新属性（正常情况下使用不到）	api/modules/pythongo_classdef/tick/TickData.update.md
+KLineStyle	class	pythongo.core			K 线周期	api/modules/pythongo_core/KLineStyle.md
+KLineStyleType	class	pythongo.core			K 线周期类型	api/modules/pythongo_core/KLineStyleType.md
+MarketCenter	class	pythongo.core			数据中心 API 类	api/modules/pythongo_core/MarketCenter.md
+get_avl_close_time	function	pythongo.core	MarketCenter	instrument_id	从缓存中获取合约可使用的收盘时间序列，如无缓存, 则获取不到任何数据	api/modules/pythongo_core/MarketCenter.get_avl_close_time.md
+get_dominant_list	function	pythongo.core	MarketCenter	exchange	获取交易所的主连合约列表	api/modules/pythongo_core/MarketCenter.get_dominant_list.md
+get_instrument_trade_time	function	pythongo.core	MarketCenter	exchange, instrument_id, instant=None	查询带交易日的合约交易时段	api/modules/pythongo_core/MarketCenter.get_instrument_trade_time.md
+get_kline_data	function	pythongo.core	MarketCenter	exchange, instrument_id, style=KLineStyle.M1, count=-1440, origin=None, start_time=None, end_time=None, simply=True	获取 K 线数据	api/modules/pythongo_core/MarketCenter.get_kline_data.md
+get_kline_data_by_day	function	pythongo.core	MarketCenter	exchange, instrument_id, day_count, origin=None, style=KLineStyle.M1, simply=True	按天数（交易日）获取 K 线数据	api/modules/pythongo_core/MarketCenter.get_kline_data_by_day.md
+get_next_gen_time	function	pythongo.core	MarketCenter	exchange, instrument_id, tick_time, style	根据提供的合约信息、时间和 K 线周期，获取下一根 K 线生成时间	api/modules/pythongo_core/MarketCenter.get_next_gen_time.md
+get_product_trade_time	function	pythongo.core	MarketCenter	exchange, product_id, trading_day=None	查询品种的交易时段信息	api/modules/pythongo_core/MarketCenter.get_product_trade_time.md
+Indicators	class	pythongo.indicator			技术指标类	api/modules/pythongo_indicator/Indicators.md
+adx	function	pythongo.indicator	Indicators		平均趋向指数（Average Directional Index）	api/modules/pythongo_indicator/Indicators.adx.md
+atr	function	pythongo.indicator	Indicators		真实波幅均值（Average True Range）	api/modules/pythongo_indicator/Indicators.atr.md
+bbi	function	pythongo.indicator	Indicators		多空指数（Bull And Bear lndex）	api/modules/pythongo_indicator/Indicators.bbi.md
+boll	function	pythongo.indicator	Indicators		布林线指标（Bollinger Bands）	api/modules/pythongo_indicator/Indicators.boll.md
+cci	function	pythongo.indicator	Indicators		顺势指标（Commodity Channel Index）	api/modules/pythongo_indicator/Indicators.cci.md
+donchian	function	pythongo.indicator	Indicators		唐奇安通道（Donchian Channels）	api/modules/pythongo_indicator/Indicators.donchian.md
+ema	function	pythongo.indicator	Indicators		指数平均数（EXPMA(Exponential Moving Average)）	api/modules/pythongo_indicator/Indicators.ema.md
+kd	function	pythongo.indicator	Indicators		随机指标	api/modules/pythongo_indicator/Indicators.kd.md
+kdj	function	pythongo.indicator	Indicators		随机指标	api/modules/pythongo_indicator/Indicators.kdj.md
+keltner	function	pythongo.indicator	Indicators		肯特纳通道指标（Keltner Channels）	api/modules/pythongo_indicator/Indicators.keltner.md
+macd	function	pythongo.indicator	Indicators		指数平滑移动平均线（Moving Average Convergence and Divergence）	api/modules/pythongo_indicator/Indicators.macd.md
+macdext	function	pythongo.indicator	Indicators		MACD 扩展方法，具有可控 MA 类型的 MACD，可对每个周期设置不同的 MA 类型	api/modules/pythongo_indicator/Indicators.macdext.md
+rsi	function	pythongo.indicator	Indicators		相对强弱指数（Relative Strength Index）	api/modules/pythongo_indicator/Indicators.rsi.md
+sar	function	pythongo.indicator	Indicators		抛物线指标（Parabolic Stop and Reverse）	api/modules/pythongo_indicator/Indicators.sar.md
+sma	function	pythongo.indicator	Indicators		简单移动平均线（Simple Moving Average）	api/modules/pythongo_indicator/Indicators.sma.md
+std	function	pythongo.indicator	Indicators		标准差（StdDev(Standard Deviation)）	api/modules/pythongo_indicator/Indicators.std.md
+cancel_order	function	pythongo.infini			撤单函数	api/modules/pythongo_infini/cancel_order.md
+get_instrument	function	pythongo.infini			获取合约信息	api/modules/pythongo_infini/get_instrument.md
+get_instruments_by_product	function	pythongo.infini			查询指定品种的所有合约信息	api/modules/pythongo_infini/get_instruments_by_product.md
+get_investor_account	function	pythongo.infini			获取账号资金数据	api/modules/pythongo_infini/get_investor_account.md
+get_investor_list	function	pythongo.infini			获取所有的投资者信息	api/modules/pythongo_infini/get_investor_list.md
+get_investor_position	function	pythongo.infini			获取账号持仓	api/modules/pythongo_infini/get_investor_position.md
+pause_strategy	function	pythongo.infini			暂停策略	api/modules/pythongo_infini/pause_strategy.md
+send_order	function	pythongo.infini			发单函数	api/modules/pythongo_infini/send_order.md
+sub_market_data	function	pythongo.infini			订阅合约行情	api/modules/pythongo_infini/sub_market_data.md
+unsub_market_data	function	pythongo.infini			取消订阅合约行情	api/modules/pythongo_infini/unsub_market_data.md
+update_param	function	pythongo.infini			界面传入参数在实例中更新	api/modules/pythongo_infini/update_param.md
+update_state	function	pythongo.infini			更新无限易 PythonGO 窗口状态栏显示值	api/modules/pythongo_infini/update_state.md
+write_log	function	pythongo.infini			输出日志到控制台	api/modules/pythongo_infini/write_log.md
+Option	class	pythongo.option			该类提供期权扩展功能，可以计算期权希腊值，由于代码陈旧冗长，这里不过多介绍，具体实现可以自行查阅代码。	api/modules/pythongo_option/Option.md
+OptionChain	function	pythongo.option			该类将同一品种下的所有期权合约整合成了期权链，提供了获取标的月份合约、到期日、行权价、看涨期权、看跌期权和平值期权的方法	api/modules/pythongo_option/OptionChain.md
+get_atm_option	function	pythongo.option	OptionChain	underlying_symbol, underlying_price, expire_date=None	获取平值期权档位	api/modules/pythongo_option/OptionChain.get_atm_option.md
+get_call_options	function	pythongo.option	OptionChain	underlying_symbol, expire_date=None	获取看涨期权合约列表，按行权价升序排列	api/modules/pythongo_option/OptionChain.get_call_options.md
+get_expire_dates	function	pythongo.option	OptionChain	underlying_symbol=None	获取标的月份合约的到期日列表，按到期时间排序	api/modules/pythongo_option/OptionChain.get_expire_dates.md
+get_month_contracts	function	pythongo.option	OptionChain		获取标的月份合约列表，按到期时间排序	api/modules/pythongo_option/OptionChain.get_month_contracts.md
+get_put_options	function	pythongo.option	OptionChain	underlying_symbol, expire_date=None	获取看跌期权合约列表，按行权价升序排列	api/modules/pythongo_option/OptionChain.get_put_options.md
+get_strike_prices	function	pythongo.option	OptionChain	underlying_symbol, expire_date=None	获取行权价列表，升序排列	api/modules/pythongo_option/OptionChain.get_strike_prices.md
+option_chain	attribute	pythongo.option	OptionChain		类型：dict	api/modules/pythongo_option/OptionChain.option_chain.md
+option_type	attribute	pythongo.option	OptionChain		类型：Literal["期权", "股票期权", "现货期权"]	api/modules/pythongo_option/OptionChain.option_type.md
+TypeDateTime	class	pythongo.types			时间类型，等同于 datetime.datetime	api/modules/pythongo_types/TypeDateTime.md
+TypeHedgeFlag	class	pythongo.types			投机套保标志	api/modules/pythongo_types/TypeHedgeFlag.md
+TypeInstResult	class	pythongo.types			合约信息数据类型	api/modules/pythongo_types/TypeInstResult.md
+TypeOffsetFlag	class	pythongo.types			开平标志	api/modules/pythongo_types/TypeOffsetFlag.md
+TypeOrderDIR	class	pythongo.types			报单方向	api/modules/pythongo_types/TypeOrderDIR.md
+TypeOrderFlag	class	pythongo.types			报单指令	api/modules/pythongo_types/TypeOrderFlag.md
+TypeProduct	class	pythongo.types			品种类型	api/modules/pythongo_types/TypeProduct.md
+TypeRAWOrderFlag	class	pythongo.types			原始报单指令	api/modules/pythongo_types/TypeRAWOrderFlag.md
+BaseStrategy	class	pythongo.ui			带 UI 的基础策略模版	api/modules/pythongo_ui/BaseStrategy.md
+KLWidget	class	pythongo.ui			K 线组件	api/modules/pythongo_ui/KLWidget.md
+modules-description	class	pythongo.ui				api/modules/pythongo_ui/modules-description.md
+main_indicator_data	function	pythongo.ui	BaseStrategy		注意：不能直接对该属性赋值，而应该自行定义该属性	api/modules/pythongo_ui/BaseStrategy.main_indicator_data.md
+sub_indicator_data	function	pythongo.ui	BaseStrategy		注意：不能直接对该属性赋值，而应该自行定义该属性	api/modules/pythongo_ui/BaseStrategy.sub_indicator_data.md
+widget	function	pythongo.ui	BaseStrategy			api/modules/pythongo_ui/BaseStrategy.widget.md
+recv_kline	function	pythongo.ui	KLWidget	data=数据容器	收取 K 线、价格信号、指标数据，并将 K 线更新在线图上	api/modules/pythongo_ui/KLWidget.recv_kline.md
+crosshair.py	function	pythongo.ui	modules-description		该模块是十字光标模块，可以显示通过移动鼠标后到达的 K 线坐标对应的 K 线数据	api/modules/pythongo_ui/modules-description.crosshair.py.md
+drawer.py	function	pythongo.ui	modules-description		绘画 K 线图 UI 的主模块，使用 PyQt 构建了整个线图的 UI	api/modules/pythongo_ui/modules-description.drawer.py.md
+widget.py	function	pythongo.ui	modules-description		连接策略与 drawer.py 的桥梁，其中包含了带 UI 功能的基础策略模版，还有 KLWidget 简化库，可以将 K 线数据传递给 U	api/modules/pythongo_ui/modules-description.widget.py.md
+CustomLogHandler	class	pythongo.utils			自定义日志 Handler	api/modules/pythongo_utils/CustomLogHandler.md
+KLineContainer	function	pythongo.utils			K 线容器	api/modules/pythongo_utils/KLineContainer.md
+KLineGenerator	function	pythongo.utils			分钟级 K 线合成	api/modules/pythongo_utils/KLineGenerator.md
+KLineGeneratorArb	class	pythongo.utils			标准套利合约的分钟级 K 线合成器	api/modules/pythongo_utils/KLineGeneratorArb.md
+KLineGeneratorSec	function	pythongo.utils			秒级 K 线生成器	api/modules/pythongo_utils/KLineGeneratorSec.md
+KLineProducer	function	pythongo.utils			K 线生产器	api/modules/pythongo_utils/KLineProducer.md
+Scheduler	function	pythongo.utils			简易定时器	api/modules/pythongo_utils/Scheduler.md
+isdigit	function	pythongo.utils			判断字符串是否整数或小数	api/modules/pythongo_utils/isdigit.md
+split_arbitrage_code	function	pythongo.utils			分割套利合约代码	api/modules/pythongo_utils/split_arbitrage_code.md
+get	function	pythongo.utils	KLineContainer	exchange, instrument_id, style	根据交易所, 合约和 K 线分钟获取缓存的 K 线	api/modules/pythongo_utils/KLineContainer.get.md
+init	function	pythongo.utils	KLineContainer	exchange, instrument_id, style	获取合约 K 线并缓存	api/modules/pythongo_utils/KLineContainer.init.md
+set	function	pythongo.utils	KLineContainer	exchange, instrument_id, style, data	根据交易所, 合约和 K 线分钟缓存 K 线	api/modules/pythongo_utils/KLineContainer.set.md
+exchange	attribute	pythongo.utils	KLineGenerator		类型：str	api/modules/pythongo_utils/KLineGenerator.exchange.md
+instrument_id	attribute	pythongo.utils	KLineGenerator		类型：str	api/modules/pythongo_utils/KLineGenerator.instrument_id.md
+producer	attribute	pythongo.utils	KLineGenerator		类型：KLineProducer	api/modules/pythongo_utils/KLineGenerator.producer.md
+push_history_data	function	pythongo.utils	KLineGenerator		推送历史 K 线数据到回调	api/modules/pythongo_utils/KLineGenerator.push_history_data.md
+stop_push_scheduler	function	pythongo.utils	KLineGenerator		停止推送每个交易时段最后一根 K 线的定时器	api/modules/pythongo_utils/KLineGenerator.stop_push_scheduler.md
+style	attribute	pythongo.utils	KLineGenerator		类型：KLineStyleType	api/modules/pythongo_utils/KLineGenerator.style.md
+tick_to_kline	function	pythongo.utils	KLineGenerator	tick, push=False	合成 K 线	api/modules/pythongo_utils/KLineGenerator.tick_to_kline.md
+tick_to_kline	function	pythongo.utils	KLineGeneratorSec	tick	合成秒级 K 线	api/modules/pythongo_utils/KLineGeneratorSec.tick_to_kline.md
+append_data	function	pythongo.utils	KLineProducer	kline	添加 K 线数据	api/modules/pythongo_utils/KLineProducer.append_data.md
+close	attribute	pythongo.utils	KLineProducer		类型：list[np.float64]	api/modules/pythongo_utils/KLineProducer.close.md
+datetime	attribute	pythongo.utils	KLineProducer		类型：list[TypeDateTime]	api/modules/pythongo_utils/KLineProducer.datetime.md
+exchange	attribute	pythongo.utils	KLineProducer		类型：str	api/modules/pythongo_utils/KLineProducer.exchange.md
+high	attribute	pythongo.utils	KLineProducer		类型：list[np.float64]	api/modules/pythongo_utils/KLineProducer.high.md
+insert_data	function	pythongo.utils	KLineProducer	kline, index=-1	根据数组下标插入 K 线数据	api/modules/pythongo_utils/KLineProducer.insert_data.md
+instrument_id	attribute	pythongo.utils	KLineProducer		类型：str	api/modules/pythongo_utils/KLineProducer.instrument_id.md
+kline_container	attribute	pythongo.utils	KLineProducer		类型：KLineContainer	api/modules/pythongo_utils/KLineProducer.kline_container.md
+low	attribute	pythongo.utils	KLineProducer		类型：list[np.float64]	api/modules/pythongo_utils/KLineProducer.low.md
+open	attribute	pythongo.utils	KLineProducer		类型：list[np.float64]	api/modules/pythongo_utils/KLineProducer.open.md
+style	attribute	pythongo.utils	KLineProducer		类型：KLineStyleType	api/modules/pythongo_utils/KLineProducer.style.md
+update	function	pythongo.utils	KLineProducer	kline	更新数据序列	api/modules/pythongo_utils/KLineProducer.update.md
+update_last_kline	function	pythongo.utils	KLineProducer	kline	更新最后一根 K 线数据	api/modules/pythongo_utils/KLineProducer.update_last_kline.md
+volume	attribute	pythongo.utils	KLineProducer		类型：list[np.float64]	api/modules/pythongo_utils/KLineProducer.volume.md
+worker	function	pythongo.utils	KLineProducer		将 K 线数据转成 K 线对象后更新到本实例中的 K 线数据序列，并且推送到 K 线回调中，这部分数据也称 K 线历史数据	api/modules/pythongo_utils/KLineProducer.worker.md
+add_job	function	pythongo.utils	Scheduler	func, trigger, id=None	添加定时任务	api/modules/pythongo_utils/Scheduler.add_job.md
+get_job	function	pythongo.utils	Scheduler	job_id	根据 job_id 获取对应的定时任务	api/modules/pythongo_utils/Scheduler.get_job.md
+get_jobs	function	pythongo.utils	Scheduler		返回所有定时任务	api/modules/pythongo_utils/Scheduler.get_jobs.md
+remove_job	function	pythongo.utils	Scheduler	job_id	根据 job_id 移除定时任务	api/modules/pythongo_utils/Scheduler.remove_job.md
+start	function	pythongo.utils	Scheduler		启动定时器	api/modules/pythongo_utils/Scheduler.start.md
+stop	function	pythongo.utils	Scheduler		停止定时器	api/modules/pythongo_utils/Scheduler.stop.md
